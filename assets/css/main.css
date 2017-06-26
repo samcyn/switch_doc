@@ -1,0 +1,382 @@
+/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_reset.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 12, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_reset.scss */
+body {
+  min-height: 100vh;
+}
+
+/* line 16, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_reset.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 20, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_reset.scss */
+a {
+  text-decoration: none;
+  color: #4A4A4A;
+  outline: 0;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_base.scss */
+body {
+  font-family: "HelveticaNeue";
+  font-size: 14px;
+  color: #4A4A4A;
+}
+
+/* line 7, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_base.scss */
+.bg-white {
+  background: #FFF !important;
+}
+
+/* line 11, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_base.scss */
+.overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* line 21, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_base.scss */
+.m-t-83 {
+  margin-top: 83px !important;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.navbar.navbar-toggleable-md .container {
+  width: 100% !important;
+}
+
+/* line 4, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.collapse.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* line 8, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.navbar.navbar-light .breadcrumb.active, .navbar.navbar-light .nav-item.active,
+.navbar.navbar-light .breadcrumb:focus, .navbar.navbar-light .nav-item:focus {
+  background-color: transparent !important;
+  outline: 0 !important;
+}
+
+/* line 15, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.navbar-nav.mr-left {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #39526b;
+}
+
+/* line 24, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.navbar-brand img {
+  width: 200px;
+  height: 53px;
+}
+
+/* line 31, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .banner {
+  position: relative;
+  height: 500px;
+  min-height: 500px;
+  background-image: url(../../assets/img/banners/header.png);
+}
+
+/* line 36, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .banner .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+/* line 40, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .banner h3 {
+  width: 751px;
+  height: 96px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 49, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .blue_box {
+  height: 137px;
+  min-height: 137px;
+  background: #39526B;
+  color: #FFF;
+}
+
+/* line 54, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .blue_box .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* line 59, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .blue_box .form-inline .form-group {
+  width: 478px;
+}
+
+/* line 62, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .blue_box .form-inline label {
+  width: 267px;
+  height: 28px;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 69, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .blue_box .form-inline select.form-control {
+  width: 100%;
+  height: 40px;
+  border-radius: 1px;
+  background-color: #ffffff;
+  margin: 6px;
+}
+
+/* line 76, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */
+.banner_wrap .blue_box .form-inline button {
+  height: 40px;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+main {
+  padding-top: 88px;
+  padding-bottom: 120px;
+}
+
+/* line 6, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#intro .container {
+  width: 60%;
+}
+
+/* line 8, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#intro .container .thumbnail {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 48px auto;
+}
+
+/* line 17, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#process .card, #how-it-works .card {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+/* line 22, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#process .card img, #how-it-works .card img {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+}
+
+/* line 27, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#process .card .card-title, #how-it-works .card .card-title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* line 32, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#process .card .card-text, #how-it-works .card .card-text {
+  font-size: 16px;
+}
+
+/* line 40, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+.descriptions .title {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 64px;
+}
+
+/* line 47, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+.descriptions p {
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+/* line 56, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#how-it-works {
+  min-height: 878px;
+  background: #39526B;
+  margin: 40px auto;
+  padding: 48px 0px;
+  color: #FFF;
+}
+
+/* line 62, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#how-it-works .container {
+  width: 75%;
+}
+
+/* line 68, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#how-it-works .descriptions .title {
+  color: #FFF;
+}
+
+/* line 72, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#how-it-works .card {
+  color: #FFF;
+  background-color: transparent;
+  background: transparent;
+}
+
+/* line 76, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#how-it-works .card img {
+  width: 86px;
+  height: 72px;
+  margin: 0 auto;
+}
+
+/* line 18, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_mixins.scss */
+#how-it-works [class*='col-']:nth-child(1) .card {
+  padding-bottom: 111px;
+  padding-right: 111px;
+  border-bottom: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+}
+
+/* line 26, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_mixins.scss */
+#how-it-works [class*='col-']:nth-child(2) .card {
+  padding-bottom: 111px;
+  padding-left: 111px;
+  border-bottom: 1px solid #FFF;
+}
+
+/* line 33, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_mixins.scss */
+#how-it-works [class*='col-']:nth-child(3) .card {
+  padding-top: 111px;
+  padding-right: 111px;
+  border-right: 1px solid #FFF;
+}
+
+/* line 40, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_mixins.scss */
+#how-it-works [class*='col-']:nth-child(4) .card {
+  padding-top: 111px;
+  padding-left: 111px;
+}
+
+/* line 45, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_mixins.scss */
+#how-it-works [class*='col-']:nth-child(odd) {
+  padding-right: 0px;
+}
+
+/* line 48, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_mixins.scss */
+#how-it-works [class*='col-']:nth-child(even) {
+  padding-left: 0px;
+}
+
+/* line 2, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-head {
+  background: #4A4A4A;
+  color: #FFF;
+  height: 100px;
+  min-height: 100px;
+}
+
+/* line 7, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-head .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* line 10, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-head .container span {
+  font-size: 20px;
+}
+
+/* line 15, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-body {
+  color: #FFF;
+  height: 315px;
+  min-height: 315px;
+  background: #39526B;
+  padding-top: 48px;
+  text-transform: uppercase;
+}
+
+/* line 23, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-body li span {
+  font-size: 14px;
+}
+
+/* line 26, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-body .lists a, footer .footer-body .copyright {
+  opacity: 0.6;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* line 33, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-body .container {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 36, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-body .container img {
+  width: 200px;
+  height: 53px;
+}
+
+/* line 40, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-body .container ul.icons li {
+  display: inline-block;
+}
+
+/* line 42, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-body .container ul.icons li a {
+  color: #FECB3F !important;
+  margin-right: 20px;
+}
+
+/* line 47, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */
+footer .footer-body .container .col-md-1 {
+  width: calc(100%/7);
+  flex: 0 0 calc(100%/7);
+  max-width: calc(100%/7);
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/modules/_buttons.scss */
+.btn-primary, .btn-primary:hover {
+  background: #FECB3F !important;
+  background-color: #FECB3F !important;
+}
+
+/*# sourceMappingURL=../css/main.map */

@@ -1,0 +1,7 @@
+.btn-primary{
+	background: $brand-yellow !important;
+	background-color: $brand-yellow !important;
+	&:hover{
+		@extend .btn-primary;
+	}
+}

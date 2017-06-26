@@ -1,0 +1,84 @@
+.navbar.navbar-toggleable-md .container{
+	width: 100% !important;
+}
+.collapse.navbar-collapse{
+	justify-content: flex-end;
+}
+
+.navbar.navbar-light .breadcrumb.active, .navbar.navbar-light .nav-item.active,
+.navbar.navbar-light .breadcrumb:focus, .navbar.navbar-light .nav-item:focus 
+ {
+    background-color: transparent !important;
+    outline: 0 !important;
+}
+
+.navbar-nav.mr-left{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	color: #39526b;
+}
+
+.navbar-brand{
+	img{
+		width: 200px;
+	    height: 53px;
+	}
+} 
+
+.banner_wrap{
+	.banner{
+		position: relative;
+		height: 500px;
+		min-height: 500px;
+		background-image: url(../../assets/img/banners/header.png);
+		.container{
+			height: 100%;
+			@include flex-display(center, center, flex-start, row); 
+		}
+		h3{
+			width: 751px;
+		 	height: 96px;
+		  	font-size: 40px;
+		 	font-weight: bold;
+		 	text-align: left;
+		 	color: #ffffff;
+		}
+	}
+	.blue_box{
+		height: 137px;
+		min-height: 137px;
+		background: $brand-blue;
+		color: #FFF;
+		.container{
+			height: 100%;
+			@include flex-display(center, center, center, row); 
+		}
+		.form-inline{
+			.form-group{
+				width: 478px;
+			}
+			label{
+				width: 267px;
+				height: 28px;
+				font-size: 24px;
+				text-align: center;
+				color: #ffffff;
+			}
+			select.form-control{
+				width: 100%;
+				height: 40px;
+				border-radius: 1px;
+				background-color: #ffffff;
+				margin: 6px;
+			}
+			button{
+				height: 40px;
+			}
+		}
+	}
+
+}
+
+ 

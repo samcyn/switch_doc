@@ -1,0 +1,23 @@
+body{
+	font-family: "HelveticaNeue";
+	font-size: 14px;
+	color: $brand-dark;
+}
+
+.bg-white{
+	background: #FFF !important;
+}
+
+.overlay{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.40);
+}
+
+.m-t-83{
+	margin-top: 83px !important;
+}

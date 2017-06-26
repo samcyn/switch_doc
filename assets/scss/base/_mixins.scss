@@ -1,0 +1,54 @@
+@mixin border-radius($radius : 5px){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin flex-display($x, $y, $z, $direction){
+	display: flex;
+    align-items: $x;
+    align-content: $y;
+    justify-content: $z;
+    flex-direction: $direction;
+}
+
+@mixin grid-divide($padding, $gap, $border){
+	[class*='col-']{
+		&:nth-child(1){
+			.card{
+				padding-bottom: $padding;
+				padding-right: $padding;
+				border-bottom: $border;
+				border-right: $border;
+			}
+		}
+		&:nth-child(2){
+			.card{
+				padding-bottom: $padding;
+				padding-left: $padding;
+				border-bottom: $border;
+			}
+		}
+		&:nth-child(3){
+			.card{
+				padding-top: $padding;
+				padding-right: $padding;
+				border-right: $border;
+			}
+		}
+		&:nth-child(4){
+			.card{
+				padding-top: $padding;
+				padding-left: $padding;
+			}
+		}
+		&:nth-child(odd){
+			padding-right: $gap;
+		}
+		&:nth-child(even){
+			padding-left: $gap;
+		}
+	}
+}
+
+
