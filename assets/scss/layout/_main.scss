@@ -4,10 +4,14 @@ main{
 }
 #intro{
 	.container{
-		width: 60%;
 		.thumbnail{
 			text-align: center;
 			margin: 0 auto 48px auto;
+		}
+	}
+	@media (min-width: 992px){
+		.container{
+			width: 60%;
 		}
 	}
 }
@@ -19,8 +23,8 @@ main{
 		color: #4a4a4a;
 		text-align: center;
 		img{
-			width: 72px;
-			height: 72px;
+			/*width: 72px;
+			height: 72px;*/
 			margin: 0 auto;
 		}
 		.card-title{
@@ -58,9 +62,6 @@ main{
 	margin: 40px auto;
 	padding: 48px 0px;
 	color: #FFF;
-	.container{
-		width: 75%;
-	}
 
 	@extend #process;
 	.descriptions{
@@ -79,6 +80,11 @@ main{
 		}
 	}
 	@include grid-divide(111px, 0px, 1px solid #FFF);
+	@media (min-width: 992px){
+		.container{
+			width: 75%;
+		}
+	}
 }
 
 #enroll{
@@ -124,8 +130,56 @@ main{
 		background: #FFF;
 		box-sizing: border-box !important;
 	}
+	@media (min-width: 768px){
+		.row{
+			justify-content: space-between;
+		}
+		.col-md-3 {
+		    -webkit-box-flex: 0;
+		    -webkit-flex: 0 0 30%;
+		    -ms-flex: 0 0 30%;
+		    flex: 0 0 30%;
+		    max-width: 30%;
+		}
+	}
 }
 
 #courses{
 	@extend #process;
+	[class*='col-']{
+		.card{
+			padding-top: 16px;
+			padding-bottom: 5px;
+		}
+		&:not(:first-child){
+			padding-left: 0px;
+			.card{
+				border-left: 1px solid #E1E1E1;
+			}
+		}
+		&:not(:last-child){
+			padding-right: 0px;
+		}
+
+	}
+}
+
+#events{
+	@extend #courses;
+	[class*='col-']{
+		.card{
+			padding: 32px 120px;
+		}
+		&:not(:first-child){
+			.card{
+				border-right: 1px solid #E1E1E1;
+			}
+		}
+		&:not(:last-child){
+			.card{
+				border-left: 1px solid #E1E1E1;
+			}
+		}
+
+	}
 }

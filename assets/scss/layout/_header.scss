@@ -78,6 +78,19 @@
 			}
 		}
 	}
+	@media (max-width: 991px){
+		.blue_box{
+			.form-inline{
+				.form-group{
+					width: 250px;
+				}
+				label{
+					width: auto;
+					
+				}
+			}
+		}
+	}
 
 }
 
