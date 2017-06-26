@@ -175,13 +175,12 @@ main {
 
 /* line 8, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
 #intro .container .thumbnail {
-  width: 140px;
-  height: 140px;
+  text-align: center;
   margin: 0 auto 48px auto;
 }
 
-/* line 17, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#process .card, #how-it-works .card {
+/* line 16, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#process .card, #how-it-works .card, #courses .card {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -190,26 +189,26 @@ main {
   text-align: center;
 }
 
-/* line 22, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#process .card img, #how-it-works .card img {
+/* line 21, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#process .card img, #how-it-works .card img, #courses .card img {
   width: 72px;
   height: 72px;
   margin: 0 auto;
 }
 
-/* line 27, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#process .card .card-title, #how-it-works .card .card-title {
+/* line 26, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#process .card .card-title, #how-it-works .card .card-title, #courses .card .card-title {
   font-size: 24px;
   font-weight: 500;
   text-align: center;
 }
 
-/* line 32, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#process .card .card-text, #how-it-works .card .card-text {
+/* line 31, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#process .card .card-text, #how-it-works .card .card-text, #courses .card .card-text {
   font-size: 16px;
 }
 
-/* line 40, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+/* line 39, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
 .descriptions .title {
   font-size: 32px;
   font-weight: 500;
@@ -218,7 +217,7 @@ main {
   margin-bottom: 64px;
 }
 
-/* line 47, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+/* line 46, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
 .descriptions p {
   font-size: 16px;
   line-height: 1.88;
@@ -226,7 +225,7 @@ main {
   color: #4a4a4a;
 }
 
-/* line 56, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+/* line 55, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
 #how-it-works {
   min-height: 878px;
   background: #39526B;
@@ -235,24 +234,24 @@ main {
   color: #FFF;
 }
 
-/* line 62, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+/* line 61, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
 #how-it-works .container {
   width: 75%;
 }
 
-/* line 68, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+/* line 67, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
 #how-it-works .descriptions .title {
   color: #FFF;
 }
 
-/* line 72, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+/* line 71, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
 #how-it-works .card {
   color: #FFF;
   background-color: transparent;
   background: transparent;
 }
 
-/* line 76, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+/* line 75, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
 #how-it-works .card img {
   width: 86px;
   height: 72px;
@@ -295,6 +294,70 @@ main {
 /* line 48, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_mixins.scss */
 #how-it-works [class*='col-']:nth-child(even) {
   padding-left: 0px;
+}
+
+/* line 84, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll {
+  color: #4a4a4a;
+  font-size: 16px;
+}
+
+/* line 87, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll h5, #enroll h6 {
+  font-weight: 500;
+}
+
+/* line 90, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll .details {
+  margin-bottom: 58px;
+}
+
+/* line 93, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll .details_title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* line 98, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll .details_text {
+  text-align: left;
+}
+
+/* line 101, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll ul, #enroll li {
+  list-style-type: disc;
+}
+
+/* line 105, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll .media img {
+  width: 166px;
+  height: 185px;
+}
+
+/* line 110, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll .card {
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  border: solid 0.5px #e1e1e1;
+  box-shadow: none;
+  margin-bottom: 48px;
+}
+
+/* line 116, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll .card .starts, #enroll .card .ends, #enroll .card .address, #enroll .card .guides {
+  margin-bottom: 24px;
+}
+
+/* line 118, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll .card .starts p, #enroll .card .ends p, #enroll .card .address p, #enroll .card .guides p {
+  margin-bottom: 0px;
+}
+
+/* line 123, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#enroll input[type=email].input-alternate {
+  background: #FFF;
+  box-sizing: border-box !important;
 }
 
 /* line 2, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */

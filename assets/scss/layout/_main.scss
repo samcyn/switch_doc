@@ -6,8 +6,7 @@ main{
 	.container{
 		width: 60%;
 		.thumbnail{
-			width: 140px;
-			height: 140px;
+			text-align: center;
 			margin: 0 auto 48px auto;
 		}
 	}
@@ -80,4 +79,53 @@ main{
 		}
 	}
 	@include grid-divide(111px, 0px, 1px solid #FFF);
+}
+
+#enroll{
+  	color: #4a4a4a;
+  	font-size: 16px;
+  	h5,h6{
+  		font-weight: 500;
+  	}
+  	.details{
+  		margin-bottom: 58px;
+  	}
+  	.details_title{
+  		font-size: 24px;
+  		font-weight: 500;
+  		margin-bottom: 24px;
+	}
+	.details_text{
+		text-align: left;
+	}
+	ul, li{
+		list-style-type: disc;
+	}
+	.media{
+		img{
+			width: 166px;
+			height: 185px;
+		}
+	}
+	.card{
+		border-radius: 3px;
+  		background-color: #f9f9f9;
+  		border: solid 0.5px #e1e1e1;
+  		box-shadow: none;
+  		margin-bottom: 48px;
+  		.starts, .ends, .address, .guides{
+  			margin-bottom: 24px;
+  			p{
+  				margin-bottom: 0px;
+  			}
+  		}
+	}
+	input[type=email].input-alternate{
+		background: #FFF;
+		box-sizing: border-box !important;
+	}
+}
+
+#courses{
+	@extend #process;
 }
