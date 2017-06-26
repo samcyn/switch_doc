@@ -18,6 +18,13 @@ body{
 	background: rgba(0, 0, 0, 0.40);
 }
 
-.m-t-83{
-	margin-top: 83px !important;
+
+
+@media (min-width: 992px){
+	.m-t-83{
+		margin-top: 83px !important;
+	}
+	.width-60p{
+		width: 60%;
+	}
 }

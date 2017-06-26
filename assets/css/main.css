@@ -51,9 +51,15 @@ body {
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* line 21, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_base.scss */
-.m-t-83 {
-  margin-top: 83px !important;
+@media (min-width: 992px) {
+  /* line 24, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_base.scss */
+  .m-t-83 {
+    margin-top: 83px !important;
+  }
+  /* line 27, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/base/_base.scss */
+  .width-60p {
+    width: 60%;
+  }
 }
 
 /* line 1, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_header.scss */

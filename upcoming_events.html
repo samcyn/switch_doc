@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Booking-Switch2.0</title>
+		<title>Upcoming Events-Switch2.0</title>
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/plugins/mdb/css/bootstrap.min.css">
@@ -14,6 +14,9 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/plugins/mdb/css/mdb.min.css">
+
+		<!-- full calendar -->
+		<link rel="stylesheet" type="text/css" href="assets/plugins/full_calender/fullcalendar/dist/fullcalendar.min.css">
 
 		<!-- main css -->
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -87,17 +90,18 @@
 			<section id="intro">
 				<div class="container">
 					<div class="thumbnail">
-						<img src="assets/img/icons/events/calendar.png" alt="icon">
+						<img src="assets/img/icons/events/calendar-o.png" alt="icon">
 					</div>
 					<div class="descriptions">
-						<h3 class="title">Book Our Space</h3>
+						<h3 class="title">Upcoming Events</h3>
 					</div>
 				</div>
 			</section>
 			<section id="events">
-				<div class="container smaller-width">
+				<div class="container width-60p">
 					<div class="contents">
 						<!-- calendar here -->
+						<div id='calendar'></div>
 					</div>
 				</div>
 			</section>
@@ -223,6 +227,15 @@
 
 		<script type="text/javascript" src="assets/plugins/mdb/js/bootstrap.min.js"></script>
 
+		<script type="text/javascript" src="assets/plugins/full_calender/moment/min/moment.min.js"></script>
+
+		<script type="text/javascript" src="assets/plugins/full_calender/fullcalendar/dist/fullcalendar.min.js"></script>
+
 		<script type="text/javascript" src="assets/js/main.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				app.scheduleHandler();
+			});
+		</script>
 	</body>
 </html>
