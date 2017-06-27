@@ -182,4 +182,45 @@ main{
 		}
 
 	}
+	#calendar{
+		margin-bottom: 88px;
+	}
+	.fc-day-grid-event{
+		text-align: center;
+	}
+	.details{
+		p{
+			font-size: 24px;
+  			text-align: center;
+  			color: #4a4a4a;
+		}
+		button{
+			width: 100%;
+			max-width: 313px;
+		}
+	}
+}
+
+
+#seniors{
+	@extend #enroll;
+	.details{
+		.job_title{
+			font-size: 32px;
+    		font-weight: 500;
+			margin-bottom: 24px;
+		}
+		.mail{
+			color: $brand-yellow;
+			font-weight: bold;
+		}
+		text-align: justify;
+		margin-bottom: 48px;
+	}
+	.container{
+		@media (min-width: 1200px){
+			width: 978px;
+			max-width: 100%;
+		}
+	}
 }

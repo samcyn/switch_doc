@@ -19,6 +19,8 @@ var app = {
 		            allDay : false 
 		        }
 		    ],
+			eventColor: '#FECB3F',
+			eventTextColor: '#FFFFFF',
 		    // header: {
 		    // 	left: 'prev,next today',
 		    // 	center: 'title',
@@ -29,20 +31,11 @@ var app = {
 		    eventClick: function(calEvent, jsEvent, view) {
 
 		        alert('Event: ' + calEvent.title);
-		        $(this).css('border-color', 'red');
-		    }
-		 //    businessHours: [ // specify an array instead
-			//     {
-			//         dow: [ 1, 2, 3 ], // Monday, Tuesday, Wednesday
-			//         start: '09:00', // 8am
-			//         end: '17:00' // 6pm
-			//     },
-			//     {
-			//         dow: [ 4, 5 ], // Thursday, Friday
-			//         start: '09:00', // 10am
-			//         end: '16:00' // 4pm
-			//     }
-			// ]
+		        //$(this).css('border-color', 'red');
+		    },
+			loading: function(isloading, view){
+				console.log(isloading);
+			}
     	});
 
 	}

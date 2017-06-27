@@ -53,7 +53,11 @@
 		color: #FFF;
 		.container{
 			height: 100%;
-			@include flex-display(center, center, center, row); 
+			@include flex-display(center, center, flex-start, row); 
+			@media (min-width: 1200px){
+				width: 978px;
+			 	max-width: 100%;
+			}
 		}
 		.form-inline{
 			.form-group{
@@ -65,6 +69,9 @@
 				font-size: 24px;
 				text-align: center;
 				color: #ffffff;
+				@media (min-width: 1200px){
+					justify-content: flex-start;
+				}
 			}
 			select.form-control{
 				width: 100%;
