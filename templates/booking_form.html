@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Careers-Switch2.0</title>
+		<title>Booking Form-Switch2.0</title>
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/plugins/mdb/css/bootstrap.min.css">
@@ -89,61 +89,56 @@
 					<div class="row">
 						<div class="col-md-12">
 							<section class="details">
-								<h4 class="job_title">All Switch Departments</h4>
-                                <form class="form-inline">
-                                    <div class="md-form">
-                                        <select class="form-control" placeholder="All departments">
-                                            <option value="1">All department</option>
-                                            <option value="2">Option 2</option>
-                                            <option value="3">Option 3</option>
-                                        </select>
-                                    </div>
-                                    <div class="md-form">
-                                        <input type="search" class="input-alternate form-control" placeholder="Search for openings">
-										<i class="fa fa-search"></i>
-									</div>
-                                    <button type="submit" class="btn btn-primary">Search</button>
-                                </form>
+								<h4 class="job_title">Saturday 10th June 2017</h4>
+                                <p class="place">Switch Express Innovation, 42 Montgomery Street, Yaba, Lagos</p>
 							</section>
                             <section class="details">
                                 <div class="positions">
-                                    <div class="position">
-                                        <h4>Finance</h4>
-                                        <ul>
-                                            <li>No Vacancies</li>
-                                        </ul>
-                                    </div>
-                                    <div class="position">
-                                        <h4>HR/Admin</h4>
-                                        <ul>
-                                            <li>No Vacancies</li>
-                                        </ul>
-                                    </div>
-                                    <div class="position">
-                                        <h4>Management</h4>
-                                        <ul>
-                                            <li>No Vacancies</li>
-                                        </ul>
-                                    </div>
-                                    <div class="position">
-                                        <h4>Marketing</h4>
-                                        <ul>
-                                            <li>No Vacancies</li>
-                                        </ul>
-                                    </div>
-                                    <div class="position">
-                                        <h4>Sales</h4>
-                                        <ul>
-                                            <li>No Vacancies</li>
-                                        </ul>
-                                    </div>
-                                    <div class="position">
-                                        <h4>Technology</h4>
-                                        <ul>
-                                            <li>Senior Frontend Developer</li>
-                                            <li>Senior Backend Developer</li>
-                                        </ul>
-                                    </div>
+									<form method="" id="bookingForm">
+										
+										<fieldset id="event_initials">
+											<label for="event_name">Event Name:</label>
+											<div class="md-form">
+												<input type="text" class="input-alternate form-control" id="event_name" name="event_name">
+											</div>
+											<label for="event_description">Event Description:</label>
+											<div class="md-form">
+												<textarea type="text" class="input-alternate form-control" id="event_description" name="event_description"></textarea>
+											</div>
+										</fieldset>
+
+										<fieldset id="durations">
+											<label for="start_time">Start Time:</label>
+											<div class="md-form">
+												<select class="form-control" placeholder="All departments" id="start_time" name="start_name">
+													<option value="1">Select Time</option>
+													<option value="2">Option 2</option>
+													<option value="3">Option 3</option>
+												</select>
+											</div>
+											<label for="start_time">End Time:</label>
+											<div class="md-form">
+												<select class="form-control" placeholder="All departments" id="start_time" name="start_name">
+													<option value="1">Select Time</option>
+													<option value="2">Option 2</option>
+													<option value="3">Option 3</option>
+												</select>
+											</div>
+										</fieldset>
+
+										<fieldset id="anchors">
+											<label>Hosted By:</label>
+											<div class="md-form">
+												<input type="text" class="input-alternate form-control" name="host[]">
+											</div>
+											<div class="md-form">
+												<input type="text" class="input-alternate form-control" name="host[]">
+											</div>
+											<a href="#" class="c-yellow"><i class="fa fa-plus"></i> Add another host</a>
+										</fieldset>
+										
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</form>
                                 </div>
                             </section>
 							

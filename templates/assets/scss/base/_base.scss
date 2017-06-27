@@ -8,6 +8,10 @@ body{
 	background: #FFF !important;
 }
 
+.c-yellow{
+	color: $brand-yellow !important;
+}
+
 .overlay{
 	position: absolute;
 	top: 0px;
@@ -19,6 +23,26 @@ body{
 }
 
 
+.form-control{
+	padding: 0 15px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+    font-size: .875rem;
+    border-bottom: 0;
+    transition: none!important;
+	border: none;
+	&:focus, &:hover{
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+		transition: none !important;
+		outline: 0;
+	}
+}
+
+input[type=email].input-alternate,
+input[type=text].input-alternate,
+input[type=password].input-alternate{
+		background: #FFF;
+		box-sizing: border-box !important;
+}
 
 @media (min-width: 992px){
 	.m-t-83{

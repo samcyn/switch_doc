@@ -126,10 +126,6 @@ main{
   			}
   		}
 	}
-	input[type=email].input-alternate{
-		background: #FFF;
-		box-sizing: border-box !important;
-	}
 	@media (min-width: 768px){
 		.row{
 			justify-content: space-between;
@@ -233,6 +229,8 @@ main{
 		}
 		.md-form{
 			margin-bottom: 0px;
+			margin-right: 12px;
+			position: relative;
 			.form-control{
 				margin-top: 6px;
 				margin-bottom: 6px;
@@ -244,16 +242,81 @@ main{
 			}
 			&:nth-child(2){
 				max-width: 360px;
+			}
+			input[type="search"]{
+				padding-left: 45px;
+			}
+			.fa{
+				position: absolute;
+				top: 18px;
+				left: 16px;
+				width: 16px !important;
+				height: 16px !important;
 			}	
 		}
 		button{
 			max-width: 144px;
 			height: 40px;
+			@media(min-width: 1200px){
+				margin-left: 12px;
+			}
 		}
 	}
 	.positions{
 		padding: 48px 97px;
 		border: solid 0.5px #E1E1E1;
+		.headings{
+			font-size: 14px;
+			font-weight: 500;
+			text-align: left;
+			color: #9b9b9b;
+		}
+		.time{
+			font-size: 16px;
+			color: #4a4a4a;
+		}
+		.host{
+			margin-bottom: 0px;
+		 	li{
+				list-style: none;
+				list-style-type: none;
+				@extend .time;
+			}
+		}
+		.descriptions, .starts, .ends{
+			margin-bottom: 25px;
+		}
+		#bookingForm{
+			label{
+				font-size: 14px;
+				font-weight: 500;
+				color: #9b9b9b;
+			}
+			textarea{
+				min-height: 156px;
+			}
+			fieldset{
+				margin-bottom: 48px;
+			}
+			.form-control{
+				box-shadow: none !important;
+				border: solid 0.5px #E1E1E1;
+			}
+			.md-form{
+				width: 100%;
+			}
+			#event_initials{
+				.md-form:first-of-type{
+					@extend #anchors;
+				}
+			}
+			#durations{
+				max-width: 166px;
+			}
+			#anchors{
+				max-width: 361px;
+			}
+		}
 		
 	}
 	.position{
@@ -269,6 +332,14 @@ main{
 			list-style-type: none;
 			font-size: 16px;
 			color: #4A4A4A;
+		}
+	}
+	.details{
+		.place{
+			font-size: 24px;
+			font-weight: 500;
+			text-align: left;
+			color: #9b9b9b;
 		}
 	}
 }
