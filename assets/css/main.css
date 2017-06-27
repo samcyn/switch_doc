@@ -383,46 +383,46 @@ main {
 }
 
 /* line 90, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll, #seniors {
+#enroll, #seniors, #careers {
   color: #4a4a4a;
   font-size: 16px;
 }
 
 /* line 93, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll h5, #seniors h5, #enroll h6, #seniors h6 {
+#enroll h5, #seniors h5, #careers h5, #enroll h6, #seniors h6, #careers h6 {
   font-weight: 500;
 }
 
 /* line 96, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll .details, #seniors .details {
+#enroll .details, #seniors .details, #careers .details {
   margin-bottom: 58px;
 }
 
 /* line 99, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll .details_title, #seniors .details_title {
+#enroll .details_title, #seniors .details_title, #careers .details_title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 24px;
 }
 
 /* line 104, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll .details_text, #seniors .details_text {
+#enroll .details_text, #seniors .details_text, #careers .details_text {
   text-align: left;
 }
 
 /* line 107, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll ul, #seniors ul, #enroll li, #seniors li {
+#enroll ul, #seniors ul, #careers ul, #enroll li, #seniors li, #careers li {
   list-style-type: disc;
 }
 
 /* line 111, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll .media img, #seniors .media img {
+#enroll .media img, #seniors .media img, #careers .media img {
   width: 166px;
   height: 185px;
 }
 
 /* line 116, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll .card, #seniors .card {
+#enroll .card, #seniors .card, #careers .card {
   border-radius: 3px;
   background-color: #f9f9f9;
   border: solid 0.5px #e1e1e1;
@@ -431,28 +431,28 @@ main {
 }
 
 /* line 122, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll .card .starts, #seniors .card .starts, #enroll .card .ends, #seniors .card .ends, #enroll .card .address, #seniors .card .address, #enroll .card .guides, #seniors .card .guides {
+#enroll .card .starts, #seniors .card .starts, #careers .card .starts, #enroll .card .ends, #seniors .card .ends, #careers .card .ends, #enroll .card .address, #seniors .card .address, #careers .card .address, #enroll .card .guides, #seniors .card .guides, #careers .card .guides {
   margin-bottom: 24px;
 }
 
 /* line 124, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll .card .starts p, #seniors .card .starts p, #enroll .card .ends p, #seniors .card .ends p, #enroll .card .address p, #seniors .card .address p, #enroll .card .guides p, #seniors .card .guides p {
+#enroll .card .starts p, #seniors .card .starts p, #careers .card .starts p, #enroll .card .ends p, #seniors .card .ends p, #careers .card .ends p, #enroll .card .address p, #seniors .card .address p, #careers .card .address p, #enroll .card .guides p, #seniors .card .guides p, #careers .card .guides p {
   margin-bottom: 0px;
 }
 
 /* line 129, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#enroll input[type=email].input-alternate, #seniors input[type=email].input-alternate {
+#enroll input[type=email].input-alternate, #seniors input[type=email].input-alternate, #careers input[type=email].input-alternate {
   background: #FFF;
   box-sizing: border-box !important;
 }
 
 @media (min-width: 768px) {
   /* line 134, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-  #enroll .row, #seniors .row {
+  #enroll .row, #seniors .row, #careers .row {
     justify-content: space-between;
   }
   /* line 137, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-  #enroll .col-md-3, #seniors .col-md-3 {
+  #enroll .col-md-3, #seniors .col-md-3, #careers .col-md-3 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 30%;
     -ms-flex: 0 0 30%;
@@ -521,30 +521,91 @@ main {
 }
 
 /* line 207, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#seniors .details {
+#seniors .details, #careers .details {
   text-align: justify;
   margin-bottom: 48px;
 }
 
 /* line 208, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#seniors .details .job_title {
+#seniors .details .job_title, #careers .details .job_title {
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 24px;
 }
 
 /* line 213, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-#seniors .details .mail {
+#seniors .details .mail, #careers .details .mail {
   color: #FECB3F;
   font-weight: bold;
 }
 
 @media (min-width: 1200px) {
   /* line 220, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
-  #seniors .container {
+  #seniors .container, #careers .container {
     width: 978px;
     max-width: 100%;
   }
+}
+
+/* line 231, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .form-inline * {
+  width: 100%;
+}
+
+/* line 234, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .form-inline .md-form {
+  margin-bottom: 0px;
+}
+
+/* line 236, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .form-inline .md-form .form-control {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+/* line 242, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .form-inline .md-form:nth-child(1) {
+  max-width: 263px;
+}
+
+/* line 245, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .form-inline .md-form:nth-child(2) {
+  max-width: 360px;
+}
+
+/* line 249, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .form-inline button {
+  max-width: 144px;
+  height: 40px;
+}
+
+/* line 254, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .positions {
+  padding: 48px 97px;
+  border: solid 0.5px #E1E1E1;
+}
+
+/* line 259, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .position {
+  margin-bottom: 54px;
+}
+
+/* line 261, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .position h4 {
+  color: #39526B;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+/* line 267, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_main.scss */
+#careers .position li {
+  list-style: none;
+  list-style-type: none;
+  font-size: 16px;
+  color: #4A4A4A;
 }
 
 /* line 2, C:/Users/USER/Documents/Repos/Switch2.0/assets/scss/layout/_footer.scss */

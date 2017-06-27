@@ -224,3 +224,51 @@ main{
 		}
 	}
 }
+
+#careers{
+	@extend #seniors;
+	.form-inline{
+		*{
+			width: 100%;
+		}
+		.md-form{
+			margin-bottom: 0px;
+			.form-control{
+				margin-top: 6px;
+				margin-bottom: 6px;
+				height: 40px;
+				box-sizing: border-box;
+			}
+			&:nth-child(1){
+				max-width: 263px;
+			}
+			&:nth-child(2){
+				max-width: 360px;
+			}	
+		}
+		button{
+			max-width: 144px;
+			height: 40px;
+		}
+	}
+	.positions{
+		padding: 48px 97px;
+		border: solid 0.5px #E1E1E1;
+		
+	}
+	.position{
+		margin-bottom: 54px;
+		h4{
+			color: $brand-blue;
+			font-weight: 500;
+			font-size: 24px;
+			margin-bottom: 16px;
+		}
+		li{
+			list-style: none;
+			list-style-type: none;
+			font-size: 16px;
+			color: #4A4A4A;
+		}
+	}
+}
