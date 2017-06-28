@@ -36,16 +36,31 @@ body {
 }
 
 /* line 7, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+.min-h858 {
+  min-height: 858px;
+}
+
+/* line 10, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+.p-t-0 {
+  padding-top: 0px !important;
+}
+
+/* line 13, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+.p-b-0 {
+  padding-bottom: 0px !important;
+}
+
+/* line 17, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
 .bg-white {
   background: #FFF !important;
 }
 
-/* line 11, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 21, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
 .c-yellow {
   color: #FECB3F !important;
 }
 
-/* line 15, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 25, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
 .overlay {
   position: absolute;
   top: 0px;
@@ -56,8 +71,8 @@ body {
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* line 26, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
-.form-control {
+/* line 36, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+.form-control, #forms .form-control:hover, #forms .form-control:focus {
   padding: 0 15px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
   font-size: .875rem;
@@ -66,14 +81,14 @@ body {
   border: none;
 }
 
-/* line 33, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
-.form-control:focus, .form-control:hover {
+/* line 43, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+.form-control:focus, #forms .form-control:focus, .form-control:hover, #forms .form-control:hover {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
   transition: none !important;
   outline: 0;
 }
 
-/* line 40, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 50, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
 input[type=email].input-alternate,
 input[type=text].input-alternate,
 input[type=password].input-alternate {
@@ -82,11 +97,11 @@ input[type=password].input-alternate {
 }
 
 @media (min-width: 992px) {
-  /* line 48, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+  /* line 58, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
   .m-t-83 {
     margin-top: 83px !important;
   }
-  /* line 51, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+  /* line 61, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
   .width-60p {
     width: 60%;
   }
@@ -200,7 +215,7 @@ input[type=password].input-alternate {
 }
 
 /* line 76, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
-.banner_wrap .blue_box .form-inline select.form-control {
+.banner_wrap .blue_box .form-inline select.form-control, .banner_wrap .blue_box .form-inline #forms select.form-control:hover, #forms .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #forms select.form-control:focus, #forms .banner_wrap .blue_box .form-inline select.form-control:focus {
   width: 100%;
   height: 40px;
   border-radius: 1px;
@@ -224,26 +239,34 @@ input[type=password].input-alternate {
   }
 }
 
-/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-main {
+/* line 2, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+body main {
   padding-top: 88px;
   padding-bottom: 120px;
 }
 
 /* line 7, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#intro .container .thumbnail {
+body[data="dev"] main {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 100%;
+  background-color: #39526b;
+}
+
+/* line 18, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#intro .container .thumbnail, #product .container .thumbnail, #forms .container .thumbnail {
   text-align: center;
   margin: 0 auto 48px auto;
 }
 
 @media (min-width: 992px) {
-  /* line 13, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-  #intro .container {
+  /* line 24, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  #intro .container, #product .container, #forms .container {
     width: 60%;
   }
 }
 
-/* line 20, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 31, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #process .card, #how-it-works .card, #courses .card, #events .card {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -253,26 +276,26 @@ main {
   text-align: center;
 }
 
-/* line 25, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 36, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #process .card img, #how-it-works .card img, #courses .card img, #events .card img {
   /*width: 72px;
 			height: 72px;*/
   margin: 0 auto;
 }
 
-/* line 30, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 41, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #process .card .card-title, #how-it-works .card .card-title, #courses .card .card-title, #events .card .card-title {
   font-size: 24px;
   font-weight: 500;
   text-align: center;
 }
 
-/* line 35, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 46, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #process .card .card-text, #how-it-works .card .card-text, #courses .card .card-text, #events .card .card-text {
   font-size: 16px;
 }
 
-/* line 43, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 54, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 .descriptions .title {
   font-size: 32px;
   font-weight: 500;
@@ -281,7 +304,7 @@ main {
   margin-bottom: 64px;
 }
 
-/* line 50, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 61, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 .descriptions p {
   font-size: 16px;
   line-height: 1.88;
@@ -289,7 +312,7 @@ main {
   color: #4a4a4a;
 }
 
-/* line 59, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 70, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #how-it-works {
   min-height: 878px;
   background: #39526B;
@@ -298,19 +321,19 @@ main {
   color: #FFF;
 }
 
-/* line 68, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 79, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #how-it-works .descriptions .title {
   color: #FFF;
 }
 
-/* line 72, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 83, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #how-it-works .card {
   color: #FFF;
   background-color: transparent;
   background: transparent;
 }
 
-/* line 76, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 87, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #how-it-works .card img {
   width: 86px;
   height: 72px;
@@ -406,53 +429,58 @@ main {
 }
 
 @media (min-width: 992px) {
-  /* line 84, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 95, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
   #how-it-works .container {
     width: 75%;
   }
 }
 
-/* line 90, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll, #seniors, #careers {
+/* line 101, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll, #seniors, #careers, #product {
   color: #4a4a4a;
   font-size: 16px;
 }
 
-/* line 93, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll h5, #seniors h5, #careers h5, #enroll h6, #seniors h6, #careers h6 {
+/* line 104, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll h5, #seniors h5, #careers h5, #product h5, #enroll h6, #seniors h6, #careers h6, #product h6 {
   font-weight: 500;
 }
 
-/* line 96, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll .details, #seniors .details, #careers .details {
+/* line 107, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll .details, #seniors .details, #careers .details, #product .details {
   margin-bottom: 58px;
 }
 
-/* line 99, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll .details_title, #seniors .details_title, #careers .details_title {
+/* line 109, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll .details:last-child, #seniors .details:last-child, #careers .details:last-child, #product .details:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 113, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll .details_title, #seniors .details_title, #careers .details_title, #product .details_title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 24px;
 }
 
-/* line 104, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll .details_text, #seniors .details_text, #careers .details_text {
+/* line 118, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll .details_text, #seniors .details_text, #careers .details_text, #product .details_text {
   text-align: left;
 }
 
-/* line 107, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll ul, #seniors ul, #careers ul, #enroll li, #seniors li, #careers li {
+/* line 121, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll ul, #seniors ul, #careers ul, #product ul, #enroll li, #seniors li, #careers li, #product li {
   list-style-type: disc;
 }
 
-/* line 111, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll .media img, #seniors .media img, #careers .media img {
+/* line 125, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll .media img, #seniors .media img, #careers .media img, #product .media img {
   width: 166px;
   height: 185px;
 }
 
-/* line 116, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll .card, #seniors .card, #careers .card {
+/* line 130, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll .card, #seniors .card, #careers .card, #product .card {
   border-radius: 3px;
   background-color: #f9f9f9;
   border: solid 0.5px #e1e1e1;
@@ -460,23 +488,23 @@ main {
   margin-bottom: 48px;
 }
 
-/* line 122, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll .card .starts, #seniors .card .starts, #careers .card .starts, #enroll .card .ends, #seniors .card .ends, #careers .card .ends, #enroll .card .address, #seniors .card .address, #careers .card .address, #enroll .card .guides, #seniors .card .guides, #careers .card .guides {
+/* line 136, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll .card .starts, #seniors .card .starts, #careers .card .starts, #product .card .starts, #enroll .card .ends, #seniors .card .ends, #careers .card .ends, #product .card .ends, #enroll .card .address, #seniors .card .address, #careers .card .address, #product .card .address, #enroll .card .guides, #seniors .card .guides, #careers .card .guides, #product .card .guides {
   margin-bottom: 24px;
 }
 
-/* line 124, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#enroll .card .starts p, #seniors .card .starts p, #careers .card .starts p, #enroll .card .ends p, #seniors .card .ends p, #careers .card .ends p, #enroll .card .address p, #seniors .card .address p, #careers .card .address p, #enroll .card .guides p, #seniors .card .guides p, #careers .card .guides p {
+/* line 138, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#enroll .card .starts p, #seniors .card .starts p, #careers .card .starts p, #product .card .starts p, #enroll .card .ends p, #seniors .card .ends p, #careers .card .ends p, #product .card .ends p, #enroll .card .address p, #seniors .card .address p, #careers .card .address p, #product .card .address p, #enroll .card .guides p, #seniors .card .guides p, #careers .card .guides p, #product .card .guides p {
   margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
-  /* line 130, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-  #enroll .row, #seniors .row, #careers .row {
+  /* line 144, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  #enroll .row, #seniors .row, #careers .row, #product .row {
     justify-content: space-between;
   }
-  /* line 133, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-  #enroll .col-md-3, #seniors .col-md-3, #careers .col-md-3 {
+  /* line 147, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  #enroll .col-md-3, #seniors .col-md-3, #careers .col-md-3, #product .col-md-3 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 30%;
     -ms-flex: 0 0 30%;
@@ -485,105 +513,100 @@ main {
   }
 }
 
-/* line 146, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 160, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #courses [class*='col-'] .card, #events [class*='col-'] .card {
   padding-top: 16px;
   padding-bottom: 5px;
 }
 
-/* line 150, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 164, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #courses [class*='col-']:not(:first-child), #events [class*='col-']:not(:first-child) {
   padding-left: 0px;
 }
 
-/* line 152, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 166, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #courses [class*='col-']:not(:first-child) .card, #events [class*='col-']:not(:first-child) .card {
   border-left: 1px solid #E1E1E1;
 }
 
-/* line 156, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 170, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #courses [class*='col-']:not(:last-child), #events [class*='col-']:not(:last-child) {
   padding-right: 0px;
 }
 
-/* line 166, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 180, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #events [class*='col-'] .card {
   padding: 32px 120px;
 }
 
-/* line 170, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 184, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #events [class*='col-']:not(:first-child) .card {
   border-right: 1px solid #E1E1E1;
 }
 
-/* line 175, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 189, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #events [class*='col-']:not(:last-child) .card {
   border-left: 1px solid #E1E1E1;
 }
 
-/* line 181, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-#events #calendar {
-  margin-bottom: 88px;
-}
-
-/* line 184, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 198, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #events .fc-day-grid-event {
   text-align: center;
 }
 
-/* line 188, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 202, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #events .details p {
   font-size: 24px;
   text-align: center;
   color: #4a4a4a;
 }
 
-/* line 193, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 207, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #events .details button {
   width: 100%;
   max-width: 313px;
 }
 
-/* line 203, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 217, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #seniors .details, #careers .details {
   text-align: justify;
   margin-bottom: 48px;
 }
 
-/* line 204, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 218, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #seniors .details .job_title, #careers .details .job_title {
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 24px;
 }
 
-/* line 209, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 223, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #seniors .details .mail, #careers .details .mail {
   color: #FECB3F;
   font-weight: bold;
 }
 
 @media (min-width: 1200px) {
-  /* line 216, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 230, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
   #seniors .container, #careers .container {
     width: 978px;
     max-width: 100%;
   }
 }
 
-/* line 227, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 241, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .form-inline * {
   width: 100%;
 }
 
-/* line 230, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 244, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form {
   margin-bottom: 0px;
   margin-right: 12px;
   position: relative;
 }
 
-/* line 234, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 248, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form .form-control {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -591,22 +614,22 @@ main {
   box-sizing: border-box;
 }
 
-/* line 240, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 254, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form:nth-child(1) {
   max-width: 263px;
 }
 
-/* line 243, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 257, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form:nth-child(2) {
   max-width: 360px;
 }
 
-/* line 246, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 260, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form input[type="search"] {
   padding-left: 45px;
 }
 
-/* line 249, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 263, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form .fa {
   position: absolute;
   top: 18px;
@@ -615,26 +638,26 @@ main {
   height: 16px !important;
 }
 
-/* line 257, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 271, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .form-inline button {
   max-width: 144px;
   height: 40px;
 }
 
 @media (min-width: 1200px) {
-  /* line 257, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 271, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
   #careers .form-inline button {
     margin-left: 12px;
   }
 }
 
-/* line 265, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 279, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions {
   padding: 48px 97px;
   border: solid 0.5px #E1E1E1;
 }
 
-/* line 268, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 282, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions .headings {
   font-size: 14px;
   font-weight: 500;
@@ -642,72 +665,72 @@ main {
   color: #9b9b9b;
 }
 
-/* line 274, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 288, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions .time, #careers .positions .host li {
   font-size: 16px;
   color: #4a4a4a;
 }
 
-/* line 278, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 292, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions .host {
   margin-bottom: 0px;
 }
 
-/* line 280, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 294, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions .host li {
   list-style: none;
   list-style-type: none;
 }
 
-/* line 286, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 300, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions .descriptions, #careers .positions .starts, #careers .positions .ends {
   margin-bottom: 25px;
 }
 
-/* line 290, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 304, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm label {
   font-size: 14px;
   font-weight: 500;
   color: #9b9b9b;
 }
 
-/* line 295, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 309, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm textarea {
   min-height: 156px;
 }
 
-/* line 298, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 312, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm fieldset {
   margin-bottom: 48px;
 }
 
-/* line 301, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 315, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm .form-control {
   box-shadow: none !important;
   border: solid 0.5px #E1E1E1;
 }
 
-/* line 305, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 319, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm .md-form {
   width: 100%;
 }
 
-/* line 313, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 327, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm #durations {
   max-width: 166px;
 }
 
-/* line 316, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 330, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm #anchors, #careers .positions #bookingForm #event_initials .md-form:first-of-type {
   max-width: 361px;
 }
 
-/* line 322, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 336, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .position {
   margin-bottom: 54px;
 }
 
-/* line 324, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 338, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .position h4 {
   color: #39526B;
   font-weight: 500;
@@ -715,7 +738,7 @@ main {
   margin-bottom: 16px;
 }
 
-/* line 330, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 344, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .position li {
   list-style: none;
   list-style-type: none;
@@ -723,12 +746,112 @@ main {
   color: #4A4A4A;
 }
 
-/* line 338, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 352, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
 #careers .details .place {
   font-size: 24px;
   font-weight: 500;
   text-align: left;
   color: #9b9b9b;
+}
+
+/* line 364, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#product .card {
+  background: #FFF;
+  border-radius: 0;
+}
+
+/* line 367, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#product .card .thumbnail {
+  min-height: 300px;
+}
+
+/* line 373, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms {
+  color: #FFF;
+}
+
+/* line 376, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .form-control, #forms .form-control:hover, #forms .form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid #E1E1E1 !important;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  background: #FFF;
+}
+
+/* line 386, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .logo {
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+/* line 389, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .logo img {
+  width: 200px;
+  height: 53px;
+}
+
+/* line 394, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .form_intro {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+/* line 400, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .instructions {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+/* line 405, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms label {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+/* line 410, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms button {
+  margin-top: 24px;
+}
+
+/* line 413, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .md-form {
+  margin-bottom: 0px;
+}
+
+/* line 416, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .md-form [class*='col-']:first-child {
+  padding-right: 6px;
+}
+
+/* line 419, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .md-form [class*='col-']:last-child {
+  padding-left: 6px;
+}
+
+/* line 421, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .md-form [class*='col-']:last-child select {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+/* line 429, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .details {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+/* line 434, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+#forms .details .details_text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.33;
 }
 
 /* line 2, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */

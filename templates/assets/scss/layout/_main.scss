@@ -1,7 +1,18 @@
-main{
-	padding-top: 88px;
-	padding-bottom: 120px;
+body{
+	main{
+		padding-top: 88px;
+		padding-bottom: 120px;
+	}
+	&[data="dev"]{
+		main{
+			padding-top: 0px;
+			padding-bottom: 0px;
+			height: 100%;
+			background-color: #39526b;
+		}
+	}
 }
+
 #intro{
 	.container{
 		.thumbnail{
@@ -95,6 +106,9 @@ main{
   	}
   	.details{
   		margin-bottom: 58px;
+		&:last-child{
+			margin-bottom: 0px;
+		}
   	}
   	.details_title{
   		font-size: 24px;
@@ -178,9 +192,9 @@ main{
 		}
 
 	}
-	#calendar{
-		margin-bottom: 88px;
-	}
+	// #calendar{
+	// 	margin-bottom: 88px;
+	// }
 	.fc-day-grid-event{
 		text-align: center;
 	}
@@ -342,4 +356,86 @@ main{
 			color: #9b9b9b;
 		}
 	}
+}
+
+#product{
+	@extend #enroll;
+	@extend #intro;
+	.card{
+		background: #FFF;
+		border-radius: 0;
+		.thumbnail{
+			min-height: 300px;
+		}
+	}
+}
+
+#forms {
+	@extend #intro;
+	color: #FFF;
+	.form-control{
+		box-shadow: none !important;
+		border: 1px solid #E1E1E1 !important;
+		margin-top: 0px;
+		margin-bottom: 12px;
+		background: #FFF;
+		&:hover, &:focus{
+			@extend .form-control;
+		}
+	}
+	.logo{
+		padding-bottom: 60px;
+    	padding-top: 20px;
+		img{
+			width: 200px;
+	    	height: 53px;
+		}
+	}
+	.form_intro{
+		font-size: 24px;
+		font-weight: 500;
+		text-align: left;
+		margin-bottom: 8px;
+	}
+	.instructions{
+		font-size: 14px;
+  		text-align: left;
+		margin-bottom: 24px;
+	}
+	label{
+		font-size: 14px;
+  		text-align: left;
+		margin-bottom: 5px;
+	}
+	button{
+		margin-top: 24px;
+	}
+	.md-form{
+		margin-bottom: 0px;
+		[class*='col-']{
+			&:first-child{
+				padding-right: 6px;
+			}
+			&:last-child{
+				padding-left: 6px;
+				select{
+					padding-left: 10px;
+					padding-right: 5px;
+				}
+			}
+
+		}
+	}
+	.details{
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		.details_text{
+			font-size: 24px;
+			font-weight: 500;
+			line-height: 1.33;
+		}
+	}
+	
 }
