@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Roboto');
+@include font-face(Herveticanuea, '../fonts/helveticaneue', 500, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-Black', 900, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-ExtraBold', 800, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-Bold', 700, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-SemiBold', 600, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-Medium', 500, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-Regular', 400, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-Light', 300, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-ExtraLight', 200, normal, ttf);
+@include font-face('Worksans', '../fonts/Work_Sans/WorkSans-Thin', 100, normal, ttf);
+@include font-face('Cedarville Cursive', '../fonts/Cedarville_Cursive/Cedarville-Cursive', 100, normal, ttf);
+
+body{
+    font-family: $worksans;
+    font-size: 14px;
+	color: $brand-dark;
+}
+
+

@@ -25,6 +25,12 @@
 		width: 200px;
 	    height: 53px;
 	}
+	@media(max-width: 991px){
+		img{
+			width: 120px;
+			height: auto;
+		}
+	}
 } 
 
 .banner_wrap{
@@ -38,12 +44,16 @@
 			@include flex-display(center, center, flex-start, row); 
 		}
 		h3{
-			width: 751px;
+			width: 100%;
+			max-width: 751px;
 		 	height: 96px;
 		  	font-size: 40px;
 		 	font-weight: bold;
 		 	text-align: left;
 		 	color: #ffffff;
+			@media(max-width: 425px){
+				font-size: 25px;
+			}
 		}
 	}
 	.blue_box{
@@ -53,18 +63,20 @@
 		color: #FFF;
 		.container{
 			height: 100%;
-			@include flex-display(center, center, flex-start, row); 
+			@include flex-display(center, center, center, row); 
 			@media (min-width: 1200px){
-				width: 978px;
+				// width: 978px;
 			 	max-width: 100%;
 			}
 		}
 		.form-inline{
 			.form-group{
 				width: 478px;
+				margin-right: 26px;
+    			margin-left: 24px;
 			}
 			label{
-				width: 267px;
+				// width: 267px;
 				height: 28px;
 				font-size: 24px;
 				text-align: center;
@@ -84,8 +96,12 @@
 				height: 40px;
 			}
 		}
+		@media(max-width: 425px){
+			height: auto;
+			padding: 20px 0px;
+		}
 	}
-	@media (max-width: 991px){
+	@media (max-width: 1024px){
 		.blue_box{
 			.form-inline{
 				.form-group{
@@ -98,7 +114,14 @@
 			}
 		}
 	}
-
+	@media (max-width:425px){
+		.blue_box{
+			.form-group, select, button{
+				width: 100% !important;
+				margin: 5px auto !important;
+			}
+		}	
+	}
 }
 
  
