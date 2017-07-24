@@ -26,16 +26,17 @@ footer{
 		min-height: 315px;
 		background: $brand-blue;
 		padding-top: 48px;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 	
 		li span{
 			font-size: 14px;
+			text-transform: uppercase;
 		}
 		.lists a, .copyright{
 			opacity: 0.6;
 			color: #FFF;
 			font-size: 12px;
-			font-weight: bold;
+			font-weight: 300;
 		}
 		
 		.container{

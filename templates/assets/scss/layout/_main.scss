@@ -1,6 +1,6 @@
 body{
 	main{
-		padding-top: $section-gap;
+		// padding-top: $section-gap;
 	}
 	&[data="dev"]{
 		main{
@@ -24,7 +24,7 @@ body{
 
 // section gap uniform all through
 .section-gap{
-	margin-bottom: $section-gap;
+	padding: $section-gap 0;
 }
 
 #intro{
@@ -88,7 +88,7 @@ body{
 	@extend .section-gap;
 	min-height: 878px;
 	background: $brand-blue;
-	padding: 48px 0px;
+	// padding: 48px 0px;
 	color: #FFF;
 
 	@extend #process;
@@ -101,6 +101,7 @@ body{
 		color: #FFF;
 		background-color: transparent;
 		background: transparent;
+		height: 100%;
 		img{
 			width: 86px;
 			height: 72px;

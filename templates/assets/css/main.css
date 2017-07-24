@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Bellefair|Roboto");
-/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_reset.scss */
+/* line 1, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_reset.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 5, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_reset.scss */
+/* line 5, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_reset.scss */
 html {
   min-height: 100%;
 }
 
-/* line 9, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_reset.scss */
+/* line 9, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_reset.scss */
 body {
   height: 100%;
   margin: 0px;
@@ -17,44 +17,44 @@ body {
   width: 100%;
 }
 
-/* line 16, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_reset.scss */
+/* line 16, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_reset.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 20, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_reset.scss */
+/* line 20, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_reset.scss */
 a {
   text-decoration: none;
   color: #4A4A4A;
   outline: 0;
 }
 
-/* line 2, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 2, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 .min-h858 {
   min-height: 858px;
 }
 
-/* line 5, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 5, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 .p-t-0 {
   padding-top: 0px !important;
 }
 
-/* line 8, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 8, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 .p-b-0 {
   padding-bottom: 0px !important;
 }
 
-/* line 12, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 12, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 .bg-white {
   background: #FFF !important;
 }
 
-/* line 16, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 16, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 .c-yellow {
   color: #FECB3F !important;
 }
 
-/* line 20, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 20, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 .overlay {
   position: absolute;
   top: 0px;
@@ -65,7 +65,7 @@ a {
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* line 31, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 31, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 .form-control, #forms .form-control:hover, #success .form-control:hover, #mvp_ad .form-control:hover, #forms .form-control:focus, #success .form-control:focus, #mvp_ad .form-control:focus {
   padding: 0 15px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
@@ -75,14 +75,14 @@ a {
   border: none;
 }
 
-/* line 38, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 38, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 .form-control:focus, #forms .form-control:focus, #success .form-control:focus, #mvp_ad .form-control:focus, .form-control:hover, #forms .form-control:hover, #success .form-control:hover, #mvp_ad .form-control:hover {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
   transition: none !important;
   outline: 0;
 }
 
-/* line 45, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+/* line 45, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
 input[type=email].input-alternate,
 input[type=text].input-alternate,
 input[type=password].input-alternate {
@@ -91,18 +91,18 @@ input[type=password].input-alternate {
 }
 
 @media (min-width: 992px) {
-  /* line 53, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+  /* line 53, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
   .m-t-83 {
     margin-top: 83px !important;
   }
-  /* line 56, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+  /* line 56, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
   .width-60p {
     width: 60%;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 61, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_base.scss */
+  /* line 61, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
   .hidden-sm {
     display: none;
   }
@@ -185,31 +185,31 @@ input[type=password].input-alternate {
   src: url("../fonts/Cedarville_Cursive/Cedarville-Cursive.ttf") format("truetype");
 }
 
-/* line 14, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/modules/_typography.scss */
+/* line 14, C:/Users/USER/Documents/Repos/s/templates/assets/scss/modules/_typography.scss */
 body {
   font-family: "Worksans", "serif";
   font-size: 14px;
   color: #4A4A4A;
 }
 
-/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 1, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar.navbar-toggleable-md .container {
   width: 100% !important;
 }
 
-/* line 4, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 4, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .collapse.navbar-collapse {
   justify-content: flex-end;
 }
 
-/* line 8, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 8, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar.navbar-light .breadcrumb.active, .navbar.navbar-light .nav-item.active,
 .navbar.navbar-light .breadcrumb:focus, .navbar.navbar-light .nav-item:focus {
   background-color: transparent !important;
   outline: 0 !important;
 }
 
-/* line 15, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 15, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-nav.mr-left {
   text-transform: uppercase;
   font-size: 16px;
@@ -218,21 +218,21 @@ body {
   color: #39526b;
 }
 
-/* line 24, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 24, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-brand img {
   width: 200px;
   height: 53px;
 }
 
 @media (max-width: 991px) {
-  /* line 29, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+  /* line 29, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .navbar-brand img {
     width: 120px;
     height: auto;
   }
 }
 
-/* line 37, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 37, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner {
   position: relative;
   height: 500px;
@@ -240,7 +240,7 @@ body {
   background-image: url(../../assets/img/banners/header.png);
 }
 
-/* line 42, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 42, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner .container {
   height: 100%;
   display: flex;
@@ -250,7 +250,7 @@ body {
   flex-direction: row;
 }
 
-/* line 46, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 46, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner h3 {
   width: 100%;
   max-width: 751px;
@@ -262,13 +262,13 @@ body {
 }
 
 @media (max-width: 425px) {
-  /* line 46, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+  /* line 46, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .banner h3 {
     font-size: 25px;
   }
 }
 
-/* line 59, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 59, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box {
   height: 137px;
   min-height: 137px;
@@ -276,7 +276,7 @@ body {
   color: #FFF;
 }
 
-/* line 64, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 64, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .container {
   height: 100%;
   display: flex;
@@ -287,35 +287,35 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 64, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+  /* line 64, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .container {
     max-width: 100%;
   }
 }
 
-/* line 73, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 73, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline .form-group {
   width: 478px;
   margin-right: 26px;
   margin-left: 24px;
 }
 
-/* line 78, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 78, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline label {
-  height: 28px;
+  min-height: 28px;
   font-size: 24px;
   text-align: center;
   color: #ffffff;
 }
 
 @media (min-width: 1200px) {
-  /* line 78, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+  /* line 78, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline label {
     justify-content: flex-start;
   }
 }
 
-/* line 88, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 88, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline select.form-control, .banner_wrap .blue_box .form-inline #forms select.form-control:hover, #forms .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #success select.form-control:hover, #success .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #mvp_ad select.form-control:hover, #mvp_ad .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #forms select.form-control:focus, #forms .banner_wrap .blue_box .form-inline select.form-control:focus, .banner_wrap .blue_box .form-inline #success select.form-control:focus, #success .banner_wrap .blue_box .form-inline select.form-control:focus, .banner_wrap .blue_box .form-inline #mvp_ad select.form-control:focus, #mvp_ad .banner_wrap .blue_box .form-inline select.form-control:focus {
   width: 100%;
   height: 40px;
@@ -324,13 +324,13 @@ body {
   margin: 6px;
 }
 
-/* line 95, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+/* line 95, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline button {
   height: 40px;
 }
 
 @media (max-width: 425px) {
-  /* line 59, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+  /* line 59, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box {
     height: auto;
     padding: 20px 0px;
@@ -338,30 +338,25 @@ body {
 }
 
 @media (max-width: 1024px) {
-  /* line 107, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+  /* line 107, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline .form-group {
     width: 250px;
   }
-  /* line 110, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+  /* line 110, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline label {
     width: auto;
   }
 }
 
 @media (max-width: 425px) {
-  /* line 119, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_header.scss */
+  /* line 119, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-group, .banner_wrap .blue_box select, .banner_wrap .blue_box button {
     width: 100% !important;
     margin: 5px auto !important;
   }
 }
 
-/* line 2, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
-body main {
-  padding-top: 88px;
-}
-
-/* line 6, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 6, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 body[data="dev"] main {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -373,31 +368,31 @@ body[data="dev"] main {
   min-height: 100vh;
 }
 
-/* line 18, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 18, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 body[data="mvp_ad"] main {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-/* line 26, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 26, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 .section-gap, #intro, #product, #forms, #success, #mvp_ad, #process, #how-it-works, #courses, #events, #mvp_ad2, #enroll, #seniors, #careers {
-  margin-bottom: 88px;
+  padding: 88px 0;
 }
 
-/* line 33, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 33, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #intro .container .thumbnail, #product .container .thumbnail, #forms .container .thumbnail, #success .container .thumbnail, #mvp_ad .container .thumbnail {
   text-align: center;
   margin: 0 auto 48px auto;
 }
 
 @media (min-width: 992px) {
-  /* line 39, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 39, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #intro .container, #product .container, #forms .container, #success .container, #mvp_ad .container {
     width: 60%;
   }
 }
 
-/* line 47, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 47, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #process .card, #how-it-works .card, #courses .card, #events .card, #mvp_ad2 .card {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -407,26 +402,26 @@ body[data="mvp_ad"] main {
   text-align: center;
 }
 
-/* line 52, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 52, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #process .card img, #how-it-works .card img, #courses .card img, #events .card img, #mvp_ad2 .card img {
   /*width: 72px;
 			height: 72px;*/
   margin: 0 auto;
 }
 
-/* line 57, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 57, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #process .card .card-title, #how-it-works .card .card-title, #courses .card .card-title, #events .card .card-title, #mvp_ad2 .card .card-title {
   font-size: 24px;
   font-weight: 500;
   text-align: center;
 }
 
-/* line 62, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 62, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #process .card .card-text, #how-it-works .card .card-text, #courses .card .card-text, #events .card .card-text, #mvp_ad2 .card .card-text {
   font-size: 16px;
 }
 
-/* line 70, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 70, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 .descriptions .title {
   font-size: 32px;
   font-weight: 500;
@@ -436,7 +431,7 @@ body[data="mvp_ad"] main {
   font-family: "Roboto", sans-serif;
 }
 
-/* line 78, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 78, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 .descriptions p {
   font-size: 16px;
   line-height: 1.88;
@@ -444,34 +439,34 @@ body[data="mvp_ad"] main {
   color: #4a4a4a;
 }
 
-/* line 87, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 87, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #how-it-works {
   min-height: 878px;
   background: #39526B;
-  padding: 48px 0px;
   color: #FFF;
 }
 
-/* line 96, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 96, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #how-it-works .descriptions .title {
   color: #FFF;
 }
 
-/* line 100, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 100, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #how-it-works .card {
   color: #FFF;
   background-color: transparent;
   background: transparent;
+  height: 100%;
 }
 
-/* line 104, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 105, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #how-it-works .card img {
   width: 86px;
   height: 72px;
   margin: 0 auto;
 }
 
-/* line 18, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+/* line 18, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
 #how-it-works [class*='col-']:nth-child(1) .card {
   padding-bottom: 111px;
   padding-right: 111px;
@@ -480,7 +475,7 @@ body[data="mvp_ad"] main {
 }
 
 @media (max-width: 992px) {
-  /* line 18, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+  /* line 18, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
   #how-it-works [class*='col-']:nth-child(1) .card {
     padding-bottom: 55.5px;
     padding-right: 55.5px;
@@ -489,7 +484,7 @@ body[data="mvp_ad"] main {
   }
 }
 
-/* line 32, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+/* line 32, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
 #how-it-works [class*='col-']:nth-child(2) .card {
   padding-bottom: 111px;
   padding-left: 111px;
@@ -497,7 +492,7 @@ body[data="mvp_ad"] main {
 }
 
 @media (max-width: 992px) {
-  /* line 32, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+  /* line 32, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
   #how-it-works [class*='col-']:nth-child(2) .card {
     padding-bottom: 55.5px;
     padding-left: 55.5px;
@@ -505,7 +500,7 @@ body[data="mvp_ad"] main {
   }
 }
 
-/* line 44, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+/* line 44, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
 #how-it-works [class*='col-']:nth-child(3) .card {
   padding-top: 111px;
   padding-right: 111px;
@@ -513,7 +508,7 @@ body[data="mvp_ad"] main {
 }
 
 @media (max-width: 992px) {
-  /* line 44, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+  /* line 44, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
   #how-it-works [class*='col-']:nth-child(3) .card {
     padding-top: 55.5px;
     padding-right: 55.5px;
@@ -521,101 +516,101 @@ body[data="mvp_ad"] main {
   }
 }
 
-/* line 56, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+/* line 56, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
 #how-it-works [class*='col-']:nth-child(4) .card {
   padding-top: 111px;
   padding-left: 111px;
 }
 
 @media (max-width: 992px) {
-  /* line 56, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+  /* line 56, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
   #how-it-works [class*='col-']:nth-child(4) .card {
     padding-top: 55.5px;
     padding-left: 55.5px;
   }
 }
 
-/* line 65, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+/* line 65, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
 #how-it-works [class*='col-']:nth-child(odd) {
   padding-right: 0px;
 }
 
 @media (max-width: 992px) {
-  /* line 65, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+  /* line 65, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
   #how-it-works [class*='col-']:nth-child(odd) {
     padding-right: 0px;
   }
 }
 
-/* line 71, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+/* line 71, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
 #how-it-works [class*='col-']:nth-child(even) {
   padding-left: 0px;
 }
 
 @media (max-width: 992px) {
-  /* line 71, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/base/_mixins.scss */
+  /* line 71, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
   #how-it-works [class*='col-']:nth-child(even) {
     padding-left: 0px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 112, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 113, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #how-it-works .container {
     width: 75%;
   }
 }
 
-/* line 118, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 119, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll, #seniors, #careers, #product {
   color: #4a4a4a;
   font-size: 16px;
 }
 
-/* line 122, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 123, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll h5, #seniors h5, #careers h5, #product h5, #enroll h6, #seniors h6, #careers h6, #product h6 {
   font-weight: 500;
 }
 
-/* line 125, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 126, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll .details, #seniors .details, #careers .details, #product .details {
   margin-bottom: 58px;
 }
 
-/* line 127, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 128, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll .details:last-child, #seniors .details:last-child, #careers .details:last-child, #product .details:last-child {
   margin-bottom: 0px;
 }
 
-/* line 131, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 132, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll .details_title, #seniors .details_title, #careers .details_title, #product .details_title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 24px;
 }
 
-/* line 136, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 137, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll .details_text, #seniors .details_text, #careers .details_text, #product .details_text {
   text-align: left;
 }
 
-/* line 139, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 140, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll ul, #seniors ul, #careers ul, #product ul {
   padding-left: 20px;
 }
 
-/* line 140, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 141, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll ul li, #seniors ul li, #careers ul li, #product ul li {
   list-style-type: disc;
 }
 
-/* line 146, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 147, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll .media img, #seniors .media img, #careers .media img, #product .media img {
   width: 166px;
   height: 185px;
 }
 
-/* line 151, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 152, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll .card, #seniors .card, #careers .card, #product .card {
   border-radius: 3px;
   background-color: #f9f9f9;
@@ -624,22 +619,22 @@ body[data="mvp_ad"] main {
   margin-bottom: 48px;
 }
 
-/* line 157, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 158, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll .card .starts, #seniors .card .starts, #careers .card .starts, #product .card .starts, #enroll .card .ends, #seniors .card .ends, #careers .card .ends, #product .card .ends, #enroll .card .address, #seniors .card .address, #careers .card .address, #product .card .address, #enroll .card .guides, #seniors .card .guides, #careers .card .guides, #product .card .guides {
   margin-bottom: 24px;
 }
 
-/* line 159, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 160, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #enroll .card .starts p, #seniors .card .starts p, #careers .card .starts p, #product .card .starts p, #enroll .card .ends p, #seniors .card .ends p, #careers .card .ends p, #product .card .ends p, #enroll .card .address p, #seniors .card .address p, #careers .card .address p, #product .card .address p, #enroll .card .guides p, #seniors .card .guides p, #careers .card .guides p, #product .card .guides p {
   margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
-  /* line 165, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 166, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #enroll .row, #seniors .row, #careers .row, #product .row {
     justify-content: space-between;
   }
-  /* line 168, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 169, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #enroll .col-md-3, #seniors .col-md-3, #careers .col-md-3, #product .col-md-3 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 30%;
@@ -649,114 +644,114 @@ body[data="mvp_ad"] main {
   }
 }
 
-/* line 182, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 183, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #courses [class*='col-'] .card, #events [class*='col-'] .card, #mvp_ad2 [class*='col-'] .card {
   padding-top: 16px;
   padding-bottom: 5px;
 }
 
 @media (min-width: 768px) {
-  /* line 187, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 188, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #courses [class*='col-']:not(:first-child), #events [class*='col-']:not(:first-child), #mvp_ad2 [class*='col-']:not(:first-child) {
     padding-left: 0px;
   }
-  /* line 190, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 191, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #courses [class*='col-']:not(:first-child) .card, #events [class*='col-']:not(:first-child) .card, #mvp_ad2 [class*='col-']:not(:first-child) .card {
     border-left: 1px solid #E1E1E1;
   }
-  /* line 194, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 195, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #courses [class*='col-']:not(:last-child), #events [class*='col-']:not(:last-child), #mvp_ad2 [class*='col-']:not(:last-child) {
     padding-right: 0px;
   }
 }
 
 @media (max-width: 425px) {
-  /* line 207, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 208, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #events [class*='col-']:not(:last-child) .card {
     border-bottom: 1px solid #E1E1E1;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 213, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 214, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #events [class*='col-'] .card {
     padding: 16px 60px;
   }
-  /* line 217, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 218, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #events [class*='col-']:not(:first-child) .card {
     border-right: 1px solid #E1E1E1;
   }
-  /* line 222, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 223, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #events [class*='col-']:not(:last-child) .card {
     border-left: 1px solid #E1E1E1;
   }
 }
 
 @media (min-width: 1024px) {
-  /* line 228, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 229, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #events [class*='col-'] .card {
     padding: 32px 120px;
   }
 }
 
-/* line 237, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 238, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #events .fc-day-grid-event {
   text-align: center;
 }
 
-/* line 241, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 242, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #events .details p {
   font-size: 24px;
   text-align: center;
   color: #4a4a4a;
 }
 
-/* line 246, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 247, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #events .details button {
   width: 100%;
   max-width: 313px;
 }
 
-/* line 257, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 258, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #seniors .details, #careers .details {
   text-align: justify;
   margin-bottom: 48px;
 }
 
-/* line 258, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 259, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #seniors .details .job_title, #careers .details .job_title {
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 24px;
 }
 
-/* line 263, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 264, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #seniors .details .mail, #careers .details .mail {
   color: #FECB3F;
   font-weight: bold;
 }
 
 @media (min-width: 1200px) {
-  /* line 270, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 271, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #seniors .container, #careers .container {
     width: 978px;
     max-width: 100%;
   }
 }
 
-/* line 282, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 283, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .form-inline * {
   width: 100%;
 }
 
-/* line 285, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 286, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form {
   margin-bottom: 0px;
   margin-right: 12px;
   position: relative;
 }
 
-/* line 289, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 290, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form .form-control {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -764,22 +759,22 @@ body[data="mvp_ad"] main {
   box-sizing: border-box;
 }
 
-/* line 295, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 296, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form:nth-child(1) {
   max-width: 263px;
 }
 
-/* line 298, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 299, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form:nth-child(2) {
   max-width: 360px;
 }
 
-/* line 301, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 302, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form input[type="search"] {
   padding-left: 45px;
 }
 
-/* line 304, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 305, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .form-inline .md-form .fa {
   position: absolute;
   top: 18px;
@@ -788,26 +783,26 @@ body[data="mvp_ad"] main {
   height: 16px !important;
 }
 
-/* line 312, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 313, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .form-inline button {
   max-width: 144px;
   height: 40px;
 }
 
 @media (min-width: 1200px) {
-  /* line 312, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 313, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #careers .form-inline button {
     margin-left: 12px;
   }
 }
 
-/* line 320, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 321, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions {
   padding: 48px 97px;
   border: solid 0.5px #E1E1E1;
 }
 
-/* line 323, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 324, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions .headings {
   font-size: 14px;
   font-weight: 500;
@@ -815,79 +810,79 @@ body[data="mvp_ad"] main {
   color: #9b9b9b;
 }
 
-/* line 329, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 330, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions .time, #careers .positions .host li {
   font-size: 16px;
   color: #4a4a4a;
 }
 
-/* line 333, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 334, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions .host {
   margin-bottom: 0px;
 }
 
-/* line 335, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 336, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions .host li {
   list-style: none;
   list-style-type: none;
 }
 
-/* line 341, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 342, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions .descriptions, #careers .positions .starts, #careers .positions .ends {
   margin-bottom: 25px;
 }
 
-/* line 345, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 346, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm label {
   font-size: 14px;
   font-weight: 500;
   color: #9b9b9b;
 }
 
-/* line 350, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 351, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm textarea {
   min-height: 156px;
 }
 
-/* line 353, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 354, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm fieldset {
   margin-bottom: 48px;
 }
 
-/* line 356, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 357, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm .form-control {
   box-shadow: none !important;
   border: solid 0.5px #E1E1E1;
 }
 
-/* line 360, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 361, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm .md-form {
   width: 100%;
 }
 
-/* line 368, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 369, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm #durations {
   max-width: 166px;
 }
 
-/* line 371, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 372, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .positions #bookingForm #anchors, #careers .positions #bookingForm #event_initials .md-form:first-of-type {
   max-width: 361px;
 }
 
 @media (max-width: 425px) {
-  /* line 320, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 321, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #careers .positions {
     padding: 10px 15px;
   }
 }
 
-/* line 379, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 380, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .position {
   margin-bottom: 54px;
 }
 
-/* line 381, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 382, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .position h4 {
   color: #39526B;
   font-weight: 500;
@@ -895,7 +890,7 @@ body[data="mvp_ad"] main {
   margin-bottom: 16px;
 }
 
-/* line 387, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 388, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .position li {
   list-style: none;
   list-style-type: none;
@@ -903,7 +898,7 @@ body[data="mvp_ad"] main {
   color: #4A4A4A;
 }
 
-/* line 395, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 396, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #careers .details .place {
   font-size: 24px;
   font-weight: 500;
@@ -911,23 +906,23 @@ body[data="mvp_ad"] main {
   color: #9b9b9b;
 }
 
-/* line 408, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 409, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #product .card {
   background: #FFF;
   border-radius: 0;
 }
 
-/* line 411, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 412, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #product .card .thumbnail {
   min-height: 300px;
 }
 
-/* line 417, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 418, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms, #success, #mvp_ad {
   color: #FFF;
 }
 
-/* line 421, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 422, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .form-control, #success .form-control, #mvp_ad .form-control, #forms .form-control:hover, #success .form-control:hover, #mvp_ad .form-control:hover, #forms .form-control:focus, #success .form-control:focus, #mvp_ad .form-control:focus {
   box-shadow: none !important;
   border: 1px solid #E1E1E1 !important;
@@ -936,19 +931,19 @@ body[data="mvp_ad"] main {
   background: #FFF;
 }
 
-/* line 431, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 432, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .logo, #success .logo, #mvp_ad .logo {
   padding-bottom: 60px;
   padding-top: 20px;
 }
 
-/* line 434, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 435, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .logo img, #success .logo img, #mvp_ad .logo img {
   width: 200px;
   height: 53px;
 }
 
-/* line 439, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 440, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .form_intro, #success .form_intro, #mvp_ad .form_intro {
   font-size: 24px;
   font-weight: 500;
@@ -956,47 +951,47 @@ body[data="mvp_ad"] main {
   margin-bottom: 8px;
 }
 
-/* line 445, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 446, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .instructions, #success .instructions, #mvp_ad .instructions {
   font-size: 14px;
   text-align: left;
   margin-bottom: 24px;
 }
 
-/* line 450, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 451, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms label, #success label, #mvp_ad label {
   font-size: 14px;
   text-align: left;
   margin-bottom: 5px;
 }
 
-/* line 455, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 456, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms button, #success button, #mvp_ad button {
   margin-top: 24px;
 }
 
-/* line 458, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 459, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .md-form, #success .md-form, #mvp_ad .md-form {
   margin-bottom: 0px;
 }
 
-/* line 461, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 462, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .md-form [class*='col-']:first-child, #success .md-form [class*='col-']:first-child, #mvp_ad .md-form [class*='col-']:first-child {
   padding-right: 6px;
 }
 
-/* line 464, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 465, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .md-form [class*='col-']:last-child, #success .md-form [class*='col-']:last-child, #mvp_ad .md-form [class*='col-']:last-child {
   padding-left: 6px;
 }
 
-/* line 466, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 467, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .md-form [class*='col-']:last-child select, #success .md-form [class*='col-']:last-child select, #mvp_ad .md-form [class*='col-']:last-child select {
   padding-left: 10px;
   padding-right: 5px;
 }
 
-/* line 473, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 474, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .details, #success .details, #mvp_ad .details {
   height: 100%;
   display: flex;
@@ -1004,31 +999,31 @@ body[data="mvp_ad"] main {
   flex-direction: column;
 }
 
-/* line 478, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 479, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .details .details_text, #success .details .details_text, #mvp_ad .details .details_text {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.33;
 }
 
-/* line 486, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 487, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #success {
   color: #4A4A4A;
 }
 
-/* line 489, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 490, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #success .logo {
   padding-bottom: 142px;
 }
 
 @media (max-width: 425px) {
-  /* line 489, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 490, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #success .logo {
     padding-bottom: 71px;
   }
 }
 
-/* line 495, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 496, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #success .card {
   width: 100%;
   max-width: 361.2px;
@@ -1036,7 +1031,7 @@ body[data="mvp_ad"] main {
   position: relative;
 }
 
-/* line 500, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 501, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #success .card:before, #success .card:after {
   top: 99%;
   right: 0;
@@ -1052,29 +1047,29 @@ body[data="mvp_ad"] main {
   border-left: 50px solid transparent;
 }
 
-/* line 517, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 518, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad {
   color: #4A4A4A;
 }
 
-/* line 520, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 521, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad .logo {
   padding-bottom: 100px;
 }
 
 @media (max-width: 425px) {
-  /* line 520, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+  /* line 521, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #mvp_ad .logo {
     padding-bottom: 50px;
   }
 }
 
-/* line 526, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 527, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad .descriptions {
   margin-bottom: 24px;
 }
 
-/* line 530, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 531, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 {
   background: #39526B;
   margin-bottom: 0;
@@ -1082,39 +1077,39 @@ body[data="mvp_ad"] main {
   color: #FFF;
 }
 
-/* line 536, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 537, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 .card {
   background: transparent;
   color: #FFF;
 }
 
-/* line 540, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 541, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 .descriptions .title, #mvp_ad2 .card-title, #mvp_ad2 a {
   color: #FFF;
 }
 
-/* line 543, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 544, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 .card-title {
   margin-bottom: 16px;
 }
 
-/* line 546, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 547, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 ul {
   margin-top: 152px;
 }
 
-/* line 549, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 550, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 li {
   text-align: center;
   display: inline-block;
 }
 
-/* line 552, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_main.scss */
+/* line 553, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 li:nth-child(2) {
   margin: 0 80px;
 }
 
-/* line 2, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 2, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-head {
   background: #4A4A4A;
   color: #FFF;
@@ -1122,7 +1117,7 @@ footer .footer-head {
   min-height: 100px;
 }
 
-/* line 7, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 7, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-head .container {
   height: 100%;
   display: flex;
@@ -1132,73 +1127,73 @@ footer .footer-head .container {
   flex-direction: row;
 }
 
-/* line 10, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 10, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-head .container span {
   font-size: 20px;
 }
 
 @media (max-width: 425px) {
-  /* line 10, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+  /* line 10, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
   footer .footer-head .container span {
     font-size: 12px;
   }
 }
 
 @media (max-width: 375px) {
-  /* line 16, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+  /* line 16, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
   footer .footer-head .container button {
     padding: .5rem 1rem;
   }
 }
 
-/* line 23, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 23, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body {
   color: #FFF;
   height: 315px;
   min-height: 315px;
   background: #39526B;
   padding-top: 48px;
+}
+
+/* line 31, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+footer .footer-body li span {
+  font-size: 14px;
   text-transform: uppercase;
 }
 
-/* line 31, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
-footer .footer-body li span {
-  font-size: 14px;
-}
-
-/* line 34, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 35, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .lists a, footer .footer-body .copyright {
   opacity: 0.6;
   color: #FFF;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 300;
 }
 
-/* line 41, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 42, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .container {
   width: 100%;
   height: 100%;
 }
 
-/* line 44, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 45, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .container img {
   width: 200px;
   height: 53px;
 }
 
-/* line 48, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 49, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .container ul.icons li {
   display: inline-block;
 }
 
-/* line 50, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+/* line 51, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .container ul.icons li a {
   color: #FECB3F !important;
   margin-right: 20px;
 }
 
 @media (min-width: 768px) {
-  /* line 56, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+  /* line 57, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
   footer .footer-body .container .col-md-1 {
     width: calc(100%/7);
     flex: 0 0 calc(100%/7);
@@ -1207,16 +1202,42 @@ footer .footer-body .container ul.icons li a {
 }
 
 @media (max-width: 1024px) {
-  /* line 23, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/layout/_footer.scss */
+  /* line 23, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
   footer .footer-body {
     height: auto;
   }
 }
 
-/* line 1, C:/Users/USER/Documents/Repos/Switch2.0/templates/assets/scss/modules/_buttons.scss */
+/* line 1, C:/Users/USER/Documents/Repos/s/templates/assets/scss/modules/_buttons.scss */
 .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited {
   background: #FECB3F !important;
   background-color: #FECB3F !important;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/s/templates/assets/scss/modules/_components.scss */
+.stuck {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-animation: fadeInDown 1.5s both;
+  animation: fadeInDown 1.5s both;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 /*# sourceMappingURL=../css/main.map */

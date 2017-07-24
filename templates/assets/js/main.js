@@ -1,4 +1,28 @@
 var app = {
+	navbarHandler: function(){
+		var top = $('.blue_box').offset().top - parseFloat($('.blue_box').css('margin-top').replace(/auto/, 0));
+		$(window).scroll(function (event) {
+		    // what the y position of the scroll is
+		    var y = $(this).scrollTop();
+
+		    // toggle between these two.
+		    if (y >= top) {
+		      // if so, ad the fixed class
+		      $('.blue_box').addClass('stuck');
+		    } else {
+		      // otherwise remove it
+		      $('.blue_box').removeClass('stuck');
+		    }
+		});
+	},
+	customSelect: function(){
+        if($('.selectpicker')){
+          $('.selectpicker').select2({
+                placeholder: "Select a state"
+          });
+        }
+        else{return;}
+	},
 	scheduleHandler: function(){
 		var date = new Date();
 		var d = date.getDate();
