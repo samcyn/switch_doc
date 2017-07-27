@@ -27,14 +27,16 @@
 			color: $brand-blue !important;
 		}
 	}
-	@media(max-width: 768px){
+	@media(max-width: 991px){
 		position: relative !important;
 		text-align: center;
 		box-shadow: none;
 		background: transparent;
 	}
-	&.lg-dropdown-width{
-		width: 215px !important;
+	@media(min-width: 992px){
+		&.lg-dropdown-width{
+			width: 215px !important;
+		}
 	}
 }
 
@@ -49,6 +51,9 @@
 		.nav-link{
 			text-transform: uppercase;
 		}
+	}
+	@media(max-width: 991px){
+		height: 100vh;
 	}
 }
 
@@ -78,7 +83,7 @@
 		h3{
 			width: 100%;
 			max-width: 751px;
-		 	height: 96px;
+		 	// height: 96px;
 		  	font-size: 40px;
 		 	font-weight: bold;
 		 	text-align: left;

@@ -241,7 +241,7 @@ body {
   color: #39526B !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   /* line 15, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .navbar .dropdown-menu {
     position: relative !important;
@@ -251,12 +251,14 @@ body {
   }
 }
 
-/* line 36, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
-.navbar .dropdown-menu.lg-dropdown-width {
-  width: 215px !important;
+@media (min-width: 992px) {
+  /* line 37, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  .navbar .dropdown-menu.lg-dropdown-width {
+    width: 215px !important;
+  }
 }
 
-/* line 41, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 43, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-nav.mr-left {
   font-size: 16px;
   font-weight: 500;
@@ -264,32 +266,39 @@ body {
   color: #39526b;
 }
 
-/* line 46, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 48, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-nav.mr-left .nav-item {
   padding-left: 20px;
   padding-left: 20px;
 }
 
-/* line 49, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 51, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-nav.mr-left .nav-item .nav-link {
   text-transform: uppercase;
 }
 
-/* line 56, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+@media (max-width: 991px) {
+  /* line 43, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  .navbar-nav.mr-left {
+    height: 100vh;
+  }
+}
+
+/* line 61, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-brand img {
   width: 200px;
   height: 53px;
 }
 
 @media (max-width: 991px) {
-  /* line 61, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 66, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .navbar-brand img {
     width: 120px;
     height: auto;
   }
 }
 
-/* line 69, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 74, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner {
   position: relative;
   height: 500px;
@@ -297,7 +306,7 @@ body {
   background-image: url(../../assets/img/banners/header.png);
 }
 
-/* line 74, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 79, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner .container {
   height: 100%;
   display: flex;
@@ -307,11 +316,10 @@ body {
   flex-direction: row;
 }
 
-/* line 78, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 83, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner h3 {
   width: 100%;
   max-width: 751px;
-  height: 96px;
   font-size: 40px;
   font-weight: bold;
   text-align: left;
@@ -319,13 +327,13 @@ body {
 }
 
 @media (max-width: 425px) {
-  /* line 78, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 83, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .banner h3 {
     font-size: 25px;
   }
 }
 
-/* line 91, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 96, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box {
   height: 137px;
   min-height: 137px;
@@ -333,7 +341,7 @@ body {
   color: #FFF;
 }
 
-/* line 96, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 101, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .container {
   height: 100%;
   display: flex;
@@ -344,20 +352,20 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 96, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 101, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .container {
     max-width: 100%;
   }
 }
 
-/* line 105, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 110, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline .form-group {
   width: 478px;
   margin-right: 26px;
   margin-left: 24px;
 }
 
-/* line 110, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 115, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline label {
   min-height: 28px;
   font-size: 24px;
@@ -366,13 +374,13 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 110, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 115, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline label {
     justify-content: flex-start;
   }
 }
 
-/* line 120, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 125, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline select.form-control, .banner_wrap .blue_box .form-inline #forms select.form-control:hover, #forms .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #success select.form-control:hover, #success .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #mvp_ad select.form-control:hover, #mvp_ad .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #forms select.form-control:focus, #forms .banner_wrap .blue_box .form-inline select.form-control:focus, .banner_wrap .blue_box .form-inline #success select.form-control:focus, #success .banner_wrap .blue_box .form-inline select.form-control:focus, .banner_wrap .blue_box .form-inline #mvp_ad select.form-control:focus, #mvp_ad .banner_wrap .blue_box .form-inline select.form-control:focus {
   width: 100%;
   height: 40px;
@@ -381,13 +389,13 @@ body {
   margin: 6px;
 }
 
-/* line 127, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 132, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline button {
   height: 40px;
 }
 
 @media (max-width: 425px) {
-  /* line 91, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 96, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box {
     height: auto;
     padding: 20px 0px;
@@ -395,18 +403,18 @@ body {
 }
 
 @media (max-width: 1024px) {
-  /* line 139, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 144, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline .form-group {
     width: 250px;
   }
-  /* line 142, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 147, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline label {
     width: auto;
   }
 }
 
 @media (max-width: 425px) {
-  /* line 151, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 156, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-group, .banner_wrap .blue_box select, .banner_wrap .blue_box button {
     width: 100% !important;
     margin: 5px auto !important;
@@ -1199,11 +1207,12 @@ footer .footer-head .container span {
 @media (max-width: 375px) {
   /* line 16, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
   footer .footer-head .container button {
-    padding: .5rem 1rem;
+    padding: 10px;
+    font-size: 10px;
   }
 }
 
-/* line 23, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+/* line 24, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body {
   color: #FFF;
   height: 315px;
@@ -1212,13 +1221,13 @@ footer .footer-body {
   padding-top: 48px;
 }
 
-/* line 31, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+/* line 32, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body li span {
   font-size: 14px;
   text-transform: uppercase;
 }
 
-/* line 35, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+/* line 36, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .lists a, footer .footer-body .copyright {
   opacity: 0.6;
   color: #FFF;
@@ -1226,31 +1235,31 @@ footer .footer-body .lists a, footer .footer-body .copyright {
   font-weight: 300;
 }
 
-/* line 42, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+/* line 43, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .container {
   width: 100%;
   height: 100%;
 }
 
-/* line 45, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+/* line 46, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .container img {
   width: 200px;
   height: 53px;
 }
 
-/* line 49, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+/* line 50, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .container ul.icons li {
   display: inline-block;
 }
 
-/* line 51, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+/* line 52, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
 footer .footer-body .container ul.icons li a {
   color: #FECB3F !important;
   margin-right: 20px;
 }
 
 @media (min-width: 768px) {
-  /* line 57, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+  /* line 58, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
   footer .footer-body .container .col-md-1 {
     width: calc(100%/7);
     flex: 0 0 calc(100%/7);
@@ -1259,7 +1268,7 @@ footer .footer-body .container ul.icons li a {
 }
 
 @media (max-width: 1024px) {
-  /* line 23, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
+  /* line 24, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_footer.scss */
   footer .footer-body {
     height: auto;
   }
