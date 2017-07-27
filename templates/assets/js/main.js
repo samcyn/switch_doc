@@ -77,7 +77,7 @@ var app = {
             eventClick: function (calEvent, jsEvent, view) {
                 var form = $("<form></form>");
                 form.append("<label>Change event name</label>");
-                form.append("<div class='input-group'><input class='form-control' type=text value='" + calEvent.title + "' /><span class='input-group-btn'><button type='submit' class='btn btn-success'><i class='fa fa-check'></i> Save</button></span></div>");
+                form.append("<div class='md-form'><input class='input-alternate form-control' type='text' value='" + calEvent.title + "' /><span class='input-group-btn'><button type='submit' class='btn btn-success'><i class='fa fa-check'></i> Save</button></span></div>");
                 $modal.modal({
                     backdrop: 'static'
                 });
@@ -100,7 +100,7 @@ var app = {
                 });
                 form = $("<form></form>");
                 form.append("<div class='row'></div>");
-                form.find(".row").append("<div class='col-md-6'><div class='form-group'><label class='control-label'>Event Name</label><input class='form-control' placeholder='Insert Event Name' type='text' name='title'/></div></div>").append("<div class='col-md-6'><div class='form-group'><label class='control-label'>Category</label><select class='form-control' name='category'></select></div></div>").find("select[name='category']").append("<option value='bg-red'>Work</option>")
+                form.find(".row").append("<div class='col-md-6'><label class='control-label'>Event Name</label><div class='md-form'><input class='input-alternate form-control' placeholder='Insert Event Name' type='text' name='title'/></div></div>").append("<div class='col-md-6'><div class='form-group'><label class='control-label'>Category</label><select class='form-control' name='category'></select></div></div>").find("select[name='category']").append("<option value='bg-red'>Work</option>")
                     .append("<option value='bg-green'>Sport</option>").append("<option value='bg-purple'>Meeting</option>").append("<option value='bg-blue'>Lunch</option>").append("<option value='bg-yellow'>Children</option>");
                 $modal.find('.delete-event').hide().end().find('.save-event').show().end().find('.modal-body').empty().prepend(form).end().find('.save-event').unbind('click').click(function () {
                     form.submit();
