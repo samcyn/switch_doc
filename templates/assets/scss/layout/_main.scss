@@ -418,6 +418,7 @@ body{
 #forms {
 	// @extend .section-gap;
 	@extend #intro;
+	padding-top: 0 !important;
 	color: #FFF;
 	.form-control{
 		box-shadow: none !important;

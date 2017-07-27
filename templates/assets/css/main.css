@@ -984,10 +984,11 @@ body[data="mvp_ad"] main {
 
 /* line 418, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms, #success, #mvp_ad {
+  padding-top: 0 !important;
   color: #FFF;
 }
 
-/* line 422, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 423, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .form-control, #success .form-control, #mvp_ad .form-control, #forms .form-control:hover, #success .form-control:hover, #mvp_ad .form-control:hover, #forms .form-control:focus, #success .form-control:focus, #mvp_ad .form-control:focus {
   box-shadow: none !important;
   border: 1px solid #E1E1E1 !important;
@@ -996,19 +997,19 @@ body[data="mvp_ad"] main {
   background: #FFF;
 }
 
-/* line 432, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 433, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .logo, #success .logo, #mvp_ad .logo {
   padding-bottom: 60px;
   padding-top: 20px;
 }
 
-/* line 435, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 436, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .logo img, #success .logo img, #mvp_ad .logo img {
   width: 200px;
   height: 53px;
 }
 
-/* line 440, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 441, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .form_intro, #success .form_intro, #mvp_ad .form_intro {
   font-size: 24px;
   font-weight: 500;
@@ -1016,47 +1017,47 @@ body[data="mvp_ad"] main {
   margin-bottom: 8px;
 }
 
-/* line 446, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 447, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .instructions, #success .instructions, #mvp_ad .instructions {
   font-size: 14px;
   text-align: left;
   margin-bottom: 24px;
 }
 
-/* line 451, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 452, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms label, #success label, #mvp_ad label {
   font-size: 14px;
   text-align: left;
   margin-bottom: 5px;
 }
 
-/* line 456, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 457, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms button, #success button, #mvp_ad button {
   margin-top: 24px;
 }
 
-/* line 459, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 460, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .md-form, #success .md-form, #mvp_ad .md-form {
   margin-bottom: 0px;
 }
 
-/* line 462, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 463, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .md-form [class*='col-']:first-child, #success .md-form [class*='col-']:first-child, #mvp_ad .md-form [class*='col-']:first-child {
   padding-right: 6px;
 }
 
-/* line 465, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 466, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .md-form [class*='col-']:last-child, #success .md-form [class*='col-']:last-child, #mvp_ad .md-form [class*='col-']:last-child {
   padding-left: 6px;
 }
 
-/* line 467, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 468, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .md-form [class*='col-']:last-child select, #success .md-form [class*='col-']:last-child select, #mvp_ad .md-form [class*='col-']:last-child select {
   padding-left: 10px;
   padding-right: 5px;
 }
 
-/* line 474, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 475, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .details, #success .details, #mvp_ad .details {
   height: 100%;
   display: flex;
@@ -1064,31 +1065,31 @@ body[data="mvp_ad"] main {
   flex-direction: column;
 }
 
-/* line 479, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 480, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #forms .details .details_text, #success .details .details_text, #mvp_ad .details .details_text {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.33;
 }
 
-/* line 487, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 488, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #success {
   color: #4A4A4A;
 }
 
-/* line 490, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 491, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #success .logo {
   padding-bottom: 142px;
 }
 
 @media (max-width: 425px) {
-  /* line 490, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+  /* line 491, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #success .logo {
     padding-bottom: 71px;
   }
 }
 
-/* line 496, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 497, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #success .card {
   width: 100%;
   max-width: 361.2px;
@@ -1096,7 +1097,7 @@ body[data="mvp_ad"] main {
   position: relative;
 }
 
-/* line 501, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 502, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #success .card:before, #success .card:after {
   top: 99%;
   right: 0;
@@ -1112,29 +1113,29 @@ body[data="mvp_ad"] main {
   border-left: 50px solid transparent;
 }
 
-/* line 518, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 519, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad {
   color: #4A4A4A;
 }
 
-/* line 521, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 522, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad .logo {
   padding-bottom: 100px;
 }
 
 @media (max-width: 425px) {
-  /* line 521, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+  /* line 522, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
   #mvp_ad .logo {
     padding-bottom: 50px;
   }
 }
 
-/* line 527, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 528, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad .descriptions {
   margin-bottom: 24px;
 }
 
-/* line 531, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 532, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 {
   background: #39526B;
   margin-bottom: 0;
@@ -1142,34 +1143,34 @@ body[data="mvp_ad"] main {
   color: #FFF;
 }
 
-/* line 537, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 538, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 .card {
   background: transparent;
   color: #FFF;
 }
 
-/* line 541, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 542, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 .descriptions .title, #mvp_ad2 .card-title, #mvp_ad2 a {
   color: #FFF;
 }
 
-/* line 544, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 545, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 .card-title {
   margin-bottom: 16px;
 }
 
-/* line 547, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 548, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 ul {
   margin-top: 152px;
 }
 
-/* line 550, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 551, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 li {
   text-align: center;
   display: inline-block;
 }
 
-/* line 553, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
+/* line 554, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
 #mvp_ad2 li:nth-child(2) {
   margin: 0 80px;
 }
