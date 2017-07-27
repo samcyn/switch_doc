@@ -25,7 +25,6 @@ var app = {
 	},
 	calendarHandler: function(){
         var $modal = $('#event-modal');
-
         /*  Initialize the calendar  */
         var date = new Date();
         var d = date.getDate();
