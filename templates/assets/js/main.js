@@ -252,7 +252,7 @@ var app = {
 
 	},
 	calendarHandler2: function(){
-        var $modal = $('#event-modal');
+        var $modal = $('#myContent');
         /*  Initialize the calendar  */
         var date = new Date();
         var d = date.getDate();
@@ -303,6 +303,7 @@ var app = {
 
             selectable: true,
             eventClick: function (calEvent, jsEvent, view) {
+                var self = $(this);
 				
                 var form = $("<form></form>");
                 form.append("<label>Change event name</label>");
@@ -314,13 +315,25 @@ var app = {
                 //     });
                 //     $modal.modal('hide');
                 // });
-                form.on('submit', function () {
+                 $modal.prepend(form)
+                
+                $modal.find("form").on('submit', function () {
+                   // e.preventDefault();
                     calEvent.title = form.find("input[type=text]").val();
                     calendar.fullCalendar('updateEvent', calEvent);
-					$(this).webuiPopover('hide');
+                    //$modal.modal('hide');
+					WebuiPopovers.hideAll();
                     return false;
                 });
-				$(this).webuiPopover({title:'Title', content: form});
+               
+				self.webuiPopover({
+                    url:'#myContent',
+                    trigger:'click',
+                    // content: form,
+                    cache: false,
+                    // arrow:true,
+                });
+				
             },
             select: function (start, end, allDay) {
                 $modal.modal({

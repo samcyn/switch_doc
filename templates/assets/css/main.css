@@ -32,6 +32,8 @@ a {
 /* line 26, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_reset.scss */
 .btn {
   margin: 0 !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
 }
 
 /* line 2, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_base.scss */
@@ -440,7 +442,7 @@ body[data="mvp_ad"] main {
 }
 
 /* line 26, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
-.section-gap, #intro, #product, #forms, #success, #mvp_ad, #process, #how-it-works, #courses, #events, #mvp_ad2, #enroll, #seniors, #careers {
+#intro, #product, #forms, #success, #mvp_ad, #process, #how-it-works, #courses, #events, #mvp_ad2, #enroll, #seniors, #careers {
   padding: 88px 0;
 }
 

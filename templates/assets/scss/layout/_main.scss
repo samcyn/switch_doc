@@ -23,12 +23,12 @@ body{
 }
 
 // section gap uniform all through
-.section-gap{
+%section-gap{
 	padding: $section-gap 0;
 }
 
 #intro{
-	@extend .section-gap;
+	@extend %section-gap;
 	.container{
 		.thumbnail{
 			text-align: center;
@@ -43,7 +43,7 @@ body{
 }
 
 #process{
-	@extend .section-gap;
+	@extend %section-gap;
 	.card{
 		@include border-radius(0px);
 		box-shadow: none;
@@ -85,7 +85,7 @@ body{
 
 
 #how-it-works{
-	@extend .section-gap;
+	@extend %section-gap;
 	min-height: 878px;
 	background: $brand-blue;
 	// padding: 48px 0px;
@@ -117,7 +117,7 @@ body{
 }
 
 #enroll{
-	@extend .section-gap;
+	@extend %section-gap;
   	color: #4a4a4a;
   	font-size: 16px;
   	h5,h6{
@@ -177,7 +177,7 @@ body{
 }
 
 #courses{
-	@extend .section-gap;
+	@extend %section-gap;
 	@extend #process;
 	[class*='col-']{
 		.card{
@@ -200,7 +200,7 @@ body{
 }
 
 #events{
-	@extend .section-gap;
+	@extend %section-gap;
 	@extend #courses;
 	[class*='col-']{
 		@media(max-width: 425px){
@@ -253,7 +253,7 @@ body{
 
 
 #seniors{
-	@extend .section-gap;
+	@extend %section-gap;
 	@extend #enroll;
 	.details{
 		.job_title{
@@ -277,7 +277,7 @@ body{
 }
 
 #careers{
-	@extend .section-gap;
+	@extend %section-gap;
 	@extend #seniors;
 	.form-inline{
 		*{
@@ -403,7 +403,7 @@ body{
 }
 
 #product{
-	@extend .section-gap;
+	@extend %section-gap;
 	@extend #enroll;
 	@extend #intro;
 	.card{
