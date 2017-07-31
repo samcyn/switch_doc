@@ -309,27 +309,28 @@ var app = {
                 form.append("<label>Change event name</label>");
                 form.append("<div class='md-form'><input class='input-alternate form-control' type='text' value='" + calEvent.title + "' /><span class='input-group-btn'><button type='submit' class='btn btn-success'><i class='fa fa-check'></i> Save</button></span></div>");
                 
-                // $modal.find('.delete-event').show().end().find('.save-event').hide().end().find('.modal-body').empty().prepend(form).end().find('.delete-event').unbind('click').click(function () {
+                // $modal.find('.form').remove().prepend(form).end().find('.delete-event').unbind('click').click(function () {
                 //     calendar.fullCalendar('removeEvents', function (ev) {
                 //         return (ev._id == calEvent._id);
                 //     });
                 //     $modal.modal('hide');
                 // });
-                 $modal.prepend(form)
+                $modal.find('form').remove().end().prepend(form)
                 
-                $modal.find("form").on('submit', function () {
-                   // e.preventDefault();
+                $modal.find("form").on('submit', function (e) {
+                    e.preventDefault();
                     calEvent.title = form.find("input[type=text]").val();
                     calendar.fullCalendar('updateEvent', calEvent);
                     //$modal.modal('hide');
-					WebuiPopovers.hideAll();
+					 //self.webuiPopover('hide');
+                     console.log(webuiPopover);
                     return false;
                 });
                
 				self.webuiPopover({
                     url:'#myContent',
-                    trigger:'click',
                     // content: form,
+                    dismissible:true,
                     cache: false,
                     // arrow:true,
                 });
