@@ -18,6 +18,17 @@
 	border-radius: 0;
 	width: 100%;
 	min-width: auto;
+	display: block !important;
+	-webkit-transform-origin: 0 0 0;
+    -moz-transform-origin: 0 0 0;
+    transform: perspective(600px) rotateX(-90deg);
+    -webkit-transform: perspective(600px) rotateX(-90deg);
+    -moz-transform: perspective(600px) rotateX(-90deg);
+    opacity: 0;
+    visibility: hidden;
+	transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
 	a{
 		padding: 8px 16px !important;
 		display: block;
@@ -47,7 +58,15 @@
 	color: #39526b;
 	.nav-item{
 		padding-left: 20px;
-		padding-left: 20px;
+		&:hover{
+			.dropdown-menu{
+				-moz-transform: perspective(600px) rotateX(0deg);
+				-webkit-transform: perspective(600px) rotateX(0deg);
+				transform: perspective(600px) rotateX(0deg);
+				opacity: 1;
+				visibility: visible;
+			}
+		}
 		.nav-link{
 			text-transform: uppercase;
 		}

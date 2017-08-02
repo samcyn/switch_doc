@@ -228,9 +228,20 @@ body {
   border-radius: 0;
   width: 100%;
   min-width: auto;
+  display: block !important;
+  -webkit-transform-origin: 0 0 0;
+  -moz-transform-origin: 0 0 0;
+  transform: perspective(600px) rotateX(-90deg);
+  -webkit-transform: perspective(600px) rotateX(-90deg);
+  -moz-transform: perspective(600px) rotateX(-90deg);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
 }
 
-/* line 21, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 32, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar .dropdown-menu a {
   padding: 8px 16px !important;
   display: block;
@@ -238,7 +249,7 @@ body {
   font-weight: 600 !important;
 }
 
-/* line 26, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 37, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar .dropdown-menu a:hover {
   color: #39526B !important;
 }
@@ -254,13 +265,13 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 37, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 48, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .navbar .dropdown-menu.lg-dropdown-width {
     width: 215px !important;
   }
 }
 
-/* line 43, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 54, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-nav.mr-left {
   font-size: 16px;
   font-weight: 500;
@@ -268,39 +279,47 @@ body {
   color: #39526b;
 }
 
-/* line 48, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 59, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-nav.mr-left .nav-item {
-  padding-left: 20px;
   padding-left: 20px;
 }
 
-/* line 51, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 62, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+.navbar-nav.mr-left .nav-item:hover .dropdown-menu {
+  -moz-transform: perspective(600px) rotateX(0deg);
+  -webkit-transform: perspective(600px) rotateX(0deg);
+  transform: perspective(600px) rotateX(0deg);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 70, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-nav.mr-left .nav-item .nav-link {
   text-transform: uppercase;
 }
 
 @media (max-width: 991px) {
-  /* line 43, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 54, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .navbar-nav.mr-left {
     height: 100vh;
   }
 }
 
-/* line 61, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 80, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .navbar-brand img {
   width: 200px;
   height: 53px;
 }
 
 @media (max-width: 991px) {
-  /* line 66, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 85, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .navbar-brand img {
     width: 120px;
     height: auto;
   }
 }
 
-/* line 74, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 93, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner {
   position: relative;
   height: 500px;
@@ -308,7 +327,7 @@ body {
   background-image: url(../../assets/img/banners/header.png);
 }
 
-/* line 79, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 98, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner .container {
   height: 100%;
   display: flex;
@@ -318,7 +337,7 @@ body {
   flex-direction: row;
 }
 
-/* line 83, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 102, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner h3 {
   width: 100%;
   max-width: 751px;
@@ -329,13 +348,13 @@ body {
 }
 
 @media (max-width: 425px) {
-  /* line 83, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 102, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .banner h3 {
     font-size: 25px;
   }
 }
 
-/* line 96, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 115, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box {
   height: 137px;
   min-height: 137px;
@@ -343,7 +362,7 @@ body {
   color: #FFF;
 }
 
-/* line 101, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 120, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .container {
   height: 100%;
   display: flex;
@@ -354,20 +373,20 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 101, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 120, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .container {
     max-width: 100%;
   }
 }
 
-/* line 110, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 129, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline .form-group {
   width: 478px;
   margin-right: 26px;
   margin-left: 24px;
 }
 
-/* line 115, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline label {
   min-height: 28px;
   font-size: 24px;
@@ -376,13 +395,13 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 115, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline label {
     justify-content: flex-start;
   }
 }
 
-/* line 125, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 144, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline select.form-control, .banner_wrap .blue_box .form-inline #forms select.form-control:hover, #forms .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #success select.form-control:hover, #success .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #mvp_ad select.form-control:hover, #mvp_ad .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #forms select.form-control:focus, #forms .banner_wrap .blue_box .form-inline select.form-control:focus, .banner_wrap .blue_box .form-inline #success select.form-control:focus, #success .banner_wrap .blue_box .form-inline select.form-control:focus, .banner_wrap .blue_box .form-inline #mvp_ad select.form-control:focus, #mvp_ad .banner_wrap .blue_box .form-inline select.form-control:focus {
   width: 100%;
   height: 40px;
@@ -391,13 +410,13 @@ body {
   margin: 6px;
 }
 
-/* line 132, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 151, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline button {
   height: 40px;
 }
 
 @media (max-width: 425px) {
-  /* line 96, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 115, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box {
     height: auto;
     padding: 20px 0px;
@@ -405,18 +424,18 @@ body {
 }
 
 @media (max-width: 1024px) {
-  /* line 144, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 163, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline .form-group {
     width: 250px;
   }
-  /* line 147, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 166, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline label {
     width: auto;
   }
 }
 
 @media (max-width: 425px) {
-  /* line 156, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 175, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-group, .banner_wrap .blue_box select, .banner_wrap .blue_box button {
     width: 100% !important;
     margin: 5px auto !important;
