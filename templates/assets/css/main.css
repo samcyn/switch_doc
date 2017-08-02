@@ -319,15 +319,55 @@ body {
   }
 }
 
-/* line 93, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
+body[data="fellowship"] .banner {
+  background-image: url(../../assets/img/banners/fellowship.png);
+}
+
+/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
+body[data="about-us"] .banner {
+  background-image: url(../../assets/img/banners/about-us.png);
+}
+
+/* line 136, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
+body[data="about-us"] .banner h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
+body[data="courses"] .banner {
+  background-image: url(../../assets/img/banners/courses.png);
+}
+
+/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
+body[data="mvp"] .banner {
+  background-image: url(../../assets/img/banners/mvp.png);
+}
+
+/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
+body[data="products"] .banner {
+  background-image: url(../../assets/img/banners/products.png);
+}
+
+/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
+body[data="events"] .banner {
+  background-image: url(../../assets/img/banners/events.png);
+}
+
+/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/base/_mixins.scss */
+body[data="default"] .banner {
+  background-image: url(../../assets/img/banners/default.png);
+}
+
+/* line 97, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner {
   position: relative;
   height: 500px;
   min-height: 500px;
-  background-image: url(../../assets/img/banners/header.png);
 }
 
-/* line 98, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 102, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner .container {
   height: 100%;
   display: flex;
@@ -337,7 +377,7 @@ body {
   flex-direction: row;
 }
 
-/* line 102, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 106, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .banner h3 {
   width: 100%;
   max-width: 751px;
@@ -348,13 +388,13 @@ body {
 }
 
 @media (max-width: 425px) {
-  /* line 102, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 106, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .banner h3 {
     font-size: 25px;
   }
 }
 
-/* line 115, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 119, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box {
   height: 137px;
   min-height: 137px;
@@ -362,7 +402,7 @@ body {
   color: #FFF;
 }
 
-/* line 120, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 124, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .container {
   height: 100%;
   display: flex;
@@ -373,20 +413,20 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 120, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 124, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .container {
     max-width: 100%;
   }
 }
 
-/* line 129, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 133, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline .form-group {
   width: 478px;
   margin-right: 26px;
   margin-left: 24px;
 }
 
-/* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 138, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline label {
   min-height: 28px;
   font-size: 24px;
@@ -395,13 +435,13 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 134, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 138, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline label {
     justify-content: flex-start;
   }
 }
 
-/* line 144, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 148, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline select.form-control, .banner_wrap .blue_box .form-inline #forms select.form-control:hover, #forms .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #success select.form-control:hover, #success .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #mvp_ad select.form-control:hover, #mvp_ad .banner_wrap .blue_box .form-inline select.form-control:hover, .banner_wrap .blue_box .form-inline #forms select.form-control:focus, #forms .banner_wrap .blue_box .form-inline select.form-control:focus, .banner_wrap .blue_box .form-inline #success select.form-control:focus, #success .banner_wrap .blue_box .form-inline select.form-control:focus, .banner_wrap .blue_box .form-inline #mvp_ad select.form-control:focus, #mvp_ad .banner_wrap .blue_box .form-inline select.form-control:focus {
   width: 100%;
   height: 40px;
@@ -410,13 +450,13 @@ body {
   margin: 6px;
 }
 
-/* line 151, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+/* line 155, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
 .banner_wrap .blue_box .form-inline button {
   height: 40px;
 }
 
 @media (max-width: 425px) {
-  /* line 115, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 119, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box {
     height: auto;
     padding: 20px 0px;
@@ -424,18 +464,18 @@ body {
 }
 
 @media (max-width: 1024px) {
-  /* line 163, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 167, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline .form-group {
     width: 250px;
   }
-  /* line 166, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 170, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-inline label {
     width: auto;
   }
 }
 
 @media (max-width: 425px) {
-  /* line 175, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
+  /* line 179, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_header.scss */
   .banner_wrap .blue_box .form-group, .banner_wrap .blue_box select, .banner_wrap .blue_box button {
     width: 100% !important;
     margin: 5px auto !important;
@@ -443,7 +483,7 @@ body {
 }
 
 /* line 6, C:/Users/USER/Documents/Repos/s/templates/assets/scss/layout/_main.scss */
-body[data="dev"] main {
+body[data="forms"] main {
   padding-top: 0px;
   padding-bottom: 0px;
   height: 100%;

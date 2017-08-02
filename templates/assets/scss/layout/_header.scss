@@ -89,12 +89,16 @@
 	}
 } 
 
+body{
+	@include backgroudCtrl($images);
+}
+
 .banner_wrap{
 	.banner{
 		position: relative;
 		height: 500px;
 		min-height: 500px;
-		background-image: url(../../assets/img/banners/header.png);
+		// background-image: url(../../assets/img/banners/header.png);
 		.container{
 			height: 100%;
 			@include flex-display(center, center, flex-start, row); 
