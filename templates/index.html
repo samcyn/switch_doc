@@ -15,6 +15,9 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/plugins/mdb/css/mdb.min.css">
 
+		<!-- select2 -->
+		<link rel="stylesheet" href="assets/plugins/select2/css/select2.css">
+
 		<!-- main css -->
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
@@ -23,7 +26,7 @@
 
 		
 	</head>
-	<body data="index">
+	<body data="default">
 		<header>
 			<!--Navbar-->
 			<nav class="navbar navbar-toggleable-md navbar-light bg-white">
@@ -109,7 +112,7 @@
 						<form class="form-inline">
 							<label for="#">Lets help you get started</label>
 						  	<div class="form-group">
-							    <select class="form-control" placeholder="Hire us">
+							    <select class="form-control selectpicker" placeholder="Hire us">
 								    <option value="1">Option 1</option>
 								    <option value="2">Option 2</option>
 								    <option value="3">Option 3</option>
@@ -350,12 +353,14 @@
 
 		<script type="text/javascript" src="assets/plugins/mdb/js/bootstrap.min.js"></script>
 
+		<script type="text/javascript" src="assets/plugins/select2/js/select2.full.js"></script>
+
 		<script type="text/javascript" src="assets/js/main.js"></script>
 
 		<script>
 			$(document).ready(function(){
 				app.navbarHandler();
-				//app.customSelect();
+				app.customSelect();
 			});
 		</script>
 	</body>
